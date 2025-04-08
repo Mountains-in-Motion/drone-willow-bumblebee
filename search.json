@@ -18,7 +18,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About the team\nAbout this site"
+    "text": "This page has some information about the team, our current projects and field work."
+  },
+  {
+    "objectID": "about.html#about-the-team",
+    "href": "about.html#about-the-team",
+    "title": "About",
+    "section": "About the team",
+    "text": "About the team\nThe team consists of …"
   },
   {
     "objectID": "gallery.html",
