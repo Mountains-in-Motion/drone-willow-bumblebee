@@ -4,41 +4,76 @@
     "href": "themes.html",
     "title": "Themes",
     "section": "",
-    "text": "About the themes\nAbout this site"
+    "text": "About this site\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\nAlt text\n\n\n\n\n\n\n\n\n\n\nText about lidar here. And a better picture. Willow Density Mapping.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nText here about willow gender mapping\n\n\n\n\n\n\n\n\n\n\nText here about bumblebee?!"
   },
   {
-    "objectID": "hello.html",
-    "href": "hello.html",
-    "title": "Quarto Basics",
+    "objectID": "themes.html#lidar",
+    "href": "themes.html#lidar",
+    "title": "Themes",
     "section": "",
-    "text": "f For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "Text about lidar here. And a better picture. Willow Density Mapping."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "themes.html#hyper-speed",
+    "href": "themes.html#hyper-speed",
+    "title": "Themes",
     "section": "",
-    "text": "This page has some information about the team, our current projects and field work."
+    "text": "Text here about willow gender mapping"
   },
   {
-    "objectID": "about.html#about-the-team",
-    "href": "about.html#about-the-team",
-    "title": "About",
-    "section": "About the team",
-    "text": "About the team\nThe team consists of …"
+    "objectID": "themes.html#bumblebee",
+    "href": "themes.html#bumblebee",
+    "title": "Themes",
+    "section": "",
+    "text": "Text here about bumblebee?!"
   },
   {
     "objectID": "gallery.html",
     "href": "gallery.html",
-    "title": "Finse Field Work Gallery",
+    "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "A Lovely Image\n\n\n\n\n\nAnother Lovely Image\n\n\n\n\n\nThe Last Lovely Image\n\n\n\n\n\nBen in front of Austdalsbeern with a drone.\n\n\n\n\n\nFifth Lovely Image\n\n\n\n\n\nSixth Lovely Image"
+    "text": "A Lovely Image\n\n\n\n\n\n\n\nAnother Lovely Image\n\n\n\n\n\n\n\n\n\nThe Last Lovely Image\n\n\n\n\n\n\n\nBen in front of Austdalsbeern with a drone.\n\n\n\n\n\n\n\n\n\nFifth Lovely Image\n\n\n\n\n\n\n\nSixth Lovely Image"
+  },
+  {
+    "objectID": "gallery.html#finse-field-work-gallery",
+    "href": "gallery.html#finse-field-work-gallery",
+    "title": "Drone-Willow-Bumblebee",
+    "section": "",
+    "text": "A Lovely Image\n\n\n\n\n\n\n\nAnother Lovely Image\n\n\n\n\n\n\n\n\n\nThe Last Lovely Image\n\n\n\n\n\n\n\nBen in front of Austdalsbeern with a drone.\n\n\n\n\n\n\n\n\n\nFifth Lovely Image\n\n\n\n\n\n\n\nSixth Lovely Image"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Us",
+    "section": "",
+    "text": "This page has some informations about the team…\n\n\n\n\n\n\n\n\n\n\nThis Benjamin is the best benjamin, ben can do so much. He can fly drone, he can jump. Jeez, he can do whatever. Even take you picture.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis drone is the coolest drone, it can do so much. It can fly, It can land, It can jump. Jeez, it can do whatever you want. Even take your picture.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis glacier is the coolest glacier, it can do so much. It can slide, It can shrink, It can weep. It can do whatever you want. Even make you cold."
+  },
+  {
+    "objectID": "about.html#benjamin",
+    "href": "about.html#benjamin",
+    "title": "About Us",
+    "section": "",
+    "text": "This Benjamin is the best benjamin, ben can do so much. He can fly drone, he can jump. Jeez, he can do whatever. Even take you picture."
+  },
+  {
+    "objectID": "about.html#this-drone",
+    "href": "about.html#this-drone",
+    "title": "About Us",
+    "section": "",
+    "text": "This drone is the coolest drone, it can do so much. It can fly, It can land, It can jump. Jeez, it can do whatever you want. Even take your picture."
+  },
+  {
+    "objectID": "about.html#this-glacier",
+    "href": "about.html#this-glacier",
+    "title": "About Us",
+    "section": "",
+    "text": "This glacier is the coolest glacier, it can do so much. It can slide, It can shrink, It can weep. It can do whatever you want. Even make you cold."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Drone - Willow - Bumblebee",
     "section": "",
-    "text": "This is a website test for the upcoming fieldtrip and projects site.\n\n\n\nThe Jakobshavn Glacier modelled in PISM. Ignore this. Will put something relevant here."
+    "text": "This is a website test for the upcoming fieldtrip and projects site.\n\n\n\n\nThe Jakobshavn Glacier modelled in PISM. Ignore this. Will put something relevant here."
   }
 ]
