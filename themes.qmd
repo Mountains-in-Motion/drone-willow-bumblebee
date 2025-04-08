@@ -6,3 +6,44 @@ title: "Themes"
 About this site
 
 
+:::{.callout-note}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+
+![Alt text](media/drone.jpg){fig-align="left"}
+
+
+:::{.column-page}
+
+::: {layout-ncol=2}
+
+## Lidar 
+Text about lidar here. And a better picture. Willow Density Mapping.
+
+
+![](media/flight.png)
+
+:::
+
+
+::: {layout-ncol=2}
+
+![](media/flight.png)
+
+## Hyper Speed
+Text here about willow gender mapping
+
+:::
+
+::: {layout-ncol=2}
+
+## Bumblebee
+Text here about bumblebee?! 
+
+![](media/flight.png)
+
+:::
+
+:::

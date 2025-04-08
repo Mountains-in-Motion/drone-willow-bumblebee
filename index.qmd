@@ -5,6 +5,19 @@ lightbox: true
 
 This is a website test for the upcoming fieldtrip and projects site.
  
-
+:::{.column-page}
 ![The Jakobshavn Glacier modelled in PISM. Ignore this. Will put something relevant here.](./media/pism.png)
+:::
+
+  
+
  
+```{r}
+#| echo: false
+#| column: screen-inset-shaded
+
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles 
+  addMarkers(lng=7.5244779006725375, lat=60.59364220037374, popup="The location of Hoth")
+```

@@ -8,16 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
       - themes.qmd
       - gallery.qmd
+      - about.qmd
 
 format:
   html:
     theme:
       light: minty
       dark: superhero
-
+   
     css: styles.css
     toc: true
 

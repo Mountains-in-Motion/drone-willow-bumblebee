@@ -1,11 +1,39 @@
 ---
-title: "About"
+#title: "About Us"
 ---
-This page has some information about the team, our current projects and field work.
-
-## About the team
-The team consists of ...
 
 
 
+:::{.column-page}
 
+# About Us
+This page has some informations about the team...
+
+::: {layout-ncol=2}
+
+![](media/benjamin.jpg){width=500}
+
+## Benjamin
+This Benjamin is the best benjamin, ben can do so much. He can fly drone, he can jump. Jeez, he can do whatever. Even take you picture.
+
+:::
+
+::: {layout-ncol=2}
+
+![](media/flight.png){width=500}
+
+## This Drone
+This drone is the coolest drone, it can do so much. It can fly, It can land, It can jump. Jeez, it can do whatever you want. Even take your picture.
+
+:::
+
+::: {layout-ncol=2}
+ 
+![](media/alt.png){width=500}
+
+## This Glacier
+This glacier is the coolest glacier, it can do so much. It can slide, It can shrink, It can weep. It can do whatever you want. Even make you cold.
+
+:::
+
+:::
