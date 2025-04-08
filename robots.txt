@@ -1,1 +1,1 @@
-Sitemap: https://PPF-Alpine.github.io/bumbletest/sitemap.xml
+Sitemap: https://PPF-Alpine.github.io/bumblebee/sitemap.xml
