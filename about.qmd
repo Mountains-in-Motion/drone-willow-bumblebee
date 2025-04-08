@@ -1,8 +1,11 @@
 ---
 title: "About"
 ---
+This page has some information about the team, our current projects and field work.
 
-# About the team
-About this site
+## About the team
+The team consists of ...
+
+
 
 
