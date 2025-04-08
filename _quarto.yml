@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Drone-Willow-Bumblebee"
+  description: "A website for the Drone Willow Bumblebee project"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - themes.qmd
+      - gallery.qmd
+
+format:
+  html:
+    theme:
+      light: minty
+      dark: superhero
+
+    css: styles.css
+    toc: true
+
+
+

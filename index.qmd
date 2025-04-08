@@ -1,0 +1,10 @@
+---
+title: "Drone - Willow - Bumblebee"
+lightbox: true
+---
+
+This is a website test for the upcoming fieldtrip and projects site.
+ 
+
+![The Jakobshavn Glacier modelled in PISM. Ignore this. Will put something relevant here.](./media/pism.png)
+ 

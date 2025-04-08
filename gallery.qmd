@@ -1,0 +1,18 @@
+---
+title: "Finse Field Work Gallery"
+lightbox: true
+---
+
+ 
+
+![A Lovely Image](./media/pism.png){group="my-gallery"}
+
+![Another Lovely Image](./media/cnn.png){group="my-gallery"}
+
+![The Last Lovely Image](./media/alt.png){group="my-gallery"}
+
+![Ben in front of Austdalsbeern with a drone.](/media/5-2309_JOSTICE_Austdalsbreen_Thorben-5.jpg){group="my-gallery"}
+
+![Fifth Lovely Image](./media/PXL_20230830_120843001.MP.jpg){group="my-gallery"}
+
+![Sixth Lovely Image](./media/Screenshot 2025-04-04 at 14.05.02.png){group="my-gallery"}
