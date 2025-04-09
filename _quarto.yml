@@ -8,9 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - themes.qmd
-      - gallery.qmd
-      - about.qmd
+      - href: themes.qmd
+        text: Themes
+      - href: gallery.qmd
+        text: Finse field work gallery
+      - href: about.qmd
+        text: About us
 
 format:
   html:

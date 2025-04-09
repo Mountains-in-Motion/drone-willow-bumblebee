@@ -4,9 +4,7 @@ lightbox: true
 
 ::: {.column-screen-inset}
 
-## Finse field work gallery
-
-::: {layout-nrow=3}
+::: {layout-ncol=3}
 
 ![A Lovely Image](./media/pism.png){group="my-gallery"}
 

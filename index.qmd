@@ -1,15 +1,22 @@
 ---
-title: "Drone - Willow - Bumblebee"
+#title: "Drone - Willow - Bumblebee"
 lightbox: true
 ---
 
-This is a website test for the upcoming fieldtrip and projects site.
  
-:::{.column-page}
-![The Jakobshavn Glacier modelled in PISM. Ignore this. Will put something relevant here.](./media/pism.png)
-:::
 
-  
+::: {layout-ncol=2}
+
+## The project
+Sample text here that explains the project in general terms. See a map of the field work area of Finse below! Part of the [PPF-Alpine](https://mountainsinmotion.w.uib.no/) research group.
+
+![Drone parked at Finse!](./media/drone.jpg) 
+
+:::
+ 
+ 
+
+
 
  
 ```{r}
@@ -19,5 +26,5 @@ This is a website test for the upcoming fieldtrip and projects site.
 library(leaflet)
 leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles 
-  addMarkers(lng=7.5244779006725375, lat=60.59364220037374, popup="The location of Hoth")
+  addMarkers(lng=7.5244779006725375, lat=60.59364220037374, popup="Finse Alpine Resarch Station")
 ```
