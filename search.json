@@ -39,7 +39,7 @@
     "href": "about.html",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "This Benjamin is the best benjamin, ben can do so much. He can fly drone, he can jump. Jeez, he can do whatever. Even take you picture.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis drone is the coolest drone, it can do so much. It can fly, It can land, It can jump. Jeez, it can do whatever you want. Even take your picture.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis glacier is the coolest glacier, it can do so much. It can slide, It can shrink, It can weep. It can do whatever you want. Even make you cold."
+    "text": "This Benjamin is the best benjamin, ben can do so much. He can fly drone, he can jump. Jeez, he can do whatever. Even take you picture.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis drone is the coolest drone, it can do so much. It can fly, It can land, It can jump. Jeez, it can do whatever you want. Even take your picture.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis glacier is the coolest glacier, it can do so much. It can slide, It can shrink, It can weep. It can do whatever you want. Even make you cold.\n\n\n\n\n\n\n\n\n\n\nGet in touch at …"
   },
   {
     "objectID": "about.html#benjamin",
@@ -63,10 +63,24 @@
     "text": "This glacier is the coolest glacier, it can do so much. It can slide, It can shrink, It can weep. It can do whatever you want. Even make you cold."
   },
   {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "Drone-Willow-Bumblebee",
+    "section": "",
+    "text": "Get in touch at …"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Drone-Willow-Bumblebee",
+    "section": "",
+    "text": "Sample text here that explains the project in general terms. See a map of the field work area of Finse below! Part of the PPF-Alpine research group."
+  },
+  {
     "objectID": "index.html#the-project",
     "href": "index.html#the-project",
     "title": "Drone-Willow-Bumblebee",
-    "section": "The project",
-    "text": "The project\nSample text here that explains the project in general terms. See a map of the field work area of Finse below! Part of the PPF-Alpine research group."
+    "section": "",
+    "text": "Sample text here that explains the project in general terms. See a map of the field work area of Finse below! Part of the PPF-Alpine research group."
   }
 ]

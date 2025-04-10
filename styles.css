@@ -1,8 +1,0 @@
-/* css styles */
-img { 
-    border-radius: 10px;
-}
-
-.grid {
-    row-gap: 4.5rem; /* or: grid-row-gap */
-}
