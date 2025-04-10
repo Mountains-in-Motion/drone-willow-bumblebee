@@ -39,11 +39,12 @@ website:
 format:
   html:
     theme:
-      light: minty
-      dark: superhero
-   
-    css: styles.scss
+      light: 
+        - minty
+        - styles.scss
+      dark: 
+        - superhero
+        - styles.scss
     toc: true
-
 
 

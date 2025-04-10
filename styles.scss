@@ -1,4 +1,4 @@
-/* css styles */
+/*-- scss:rules --*/
  
 img { 
     border-radius: 10px;
@@ -23,7 +23,7 @@ img {
 }
 
 .footer-icons img {
-    width: 40px;
+    width: 40px !important;
     height: 40px;
     object-fit: contain;
 }
