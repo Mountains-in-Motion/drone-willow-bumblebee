@@ -26,17 +26,17 @@ img {
 /* Hide all logos by default */
 .footer-icons img.logo-dark,
 .footer-icons img.logo-light {
-  display: none;
-  height: 40px;
-  vertical-align: middle;
+    display: none !important;
+    height: 40px !important;
+    vertical-align: middle;
 }
 
 /* Show dark-mode logos when 'quarto-dark' class is present */
 body.quarto-dark .footer-icons img.logo-dark {
-  display: inline;
+  display: inline !important;
 }
 
 /* Show light-mode logos when 'quarto-light' class is present */
 body.quarto-light .footer-icons img.logo-light {
-  display: inline;
+  display: inline !important;
 }
