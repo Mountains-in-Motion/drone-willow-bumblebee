@@ -37,7 +37,7 @@ website:
       </div>
 
 format:
-  html:g
+  html:
     theme:
       light: minty
       dark: superhero
