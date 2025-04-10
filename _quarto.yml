@@ -45,6 +45,7 @@ format:
       dark: 
         - superhero
         - styles.scss
+        - dark-theme-style.scss
     toc: true
 
 
