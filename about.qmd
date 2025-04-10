@@ -4,7 +4,6 @@
 
 :::{.column-page}
 
- 
 ::: {layout-ncol=2}
 
 ![](media/benjamin.jpg){width=500}
@@ -29,6 +28,15 @@ This drone is the coolest drone, it can do so much. It can fly, It can land, It 
 
 ## This Glacier
 This glacier is the coolest glacier, it can do so much. It can slide, It can shrink, It can weep. It can do whatever you want. Even make you cold.
+
+:::
+
+::: {layout-ncol=2}
+ 
+## Contact
+Get in touch at ...
+
+![](media/pism.png){width=500}
 
 :::
 

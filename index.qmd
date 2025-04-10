@@ -3,22 +3,29 @@
 lightbox: true
 ---
 
- 
+::: {.column-page}
 
-::: {layout-ncol=2}
+::: {.grid}
 
+::: {.g-col-7}
 ## The project
 Sample text here that explains the project in general terms. See a map of the field work area of Finse below! Part of the [PPF-Alpine](https://mountainsinmotion.w.uib.no/) research group.
+:::
 
-![Drone parked at Finse!](./media/drone.jpg) 
+::: {.g-col-5}
+![](./media/drone-bumblebee.png){.no-lightbox}
+:::
 
 :::
- 
- 
 
+:::
 
+::: {.my-5}
+:::
 
- 
+::: {.my-5}
+:::
+
 ```{r}
 #| echo: false
 #| column: screen-inset-shaded

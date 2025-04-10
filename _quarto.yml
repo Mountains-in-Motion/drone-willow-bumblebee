@@ -4,10 +4,11 @@ project:
 website:
   title: "Drone-Willow-Bumblebee"
   description: "A website for the Drone Willow Bumblebee project"
+  favicon: "media/drone-bumblebee.png"
+
   navbar:
+    logo: "media/drone-bumblebee-noleaf.png"
     left:
-      - href: index.qmd
-        text: Home
       - href: themes.qmd
         text: Themes
       - href: gallery.qmd
@@ -15,13 +16,33 @@ website:
       - href: about.qmd
         text: About us
 
+  
+  page-footer: 
+    left: |
+      <div id="copyright">© 2025 PPF-Alpine Project</div>
+    right: |
+      <div class="footer-icons">
+        <a href="https://www.uib.no/en">
+          <img class="logo-dark" src="./media/uib_white.png" alt="UiB Logo Dark">
+          <img class="logo-light" src="./media/uib_black.png" alt="UiB Logo Light">
+        </a>
+        <a href="https://mohnfoundation.no/en/">
+          <img class="logo-dark" src="media/trond.jpg" alt="Mohn Logo"> 
+          <img class="logo-light" src="media/trond.jpg" alt="Mohn Logo">
+        </a>
+        <a href="https://bjerknes.uib.no/en">
+          <img class="logo-dark" src="media/bjerknes_white.webp" alt="Bjerknes Logo Dark">
+          <img class="logo-light" src="media/bjerknes_black.webp" alt="Bjerknes Logo Light">
+        </a>
+      </div>
+
 format:
   html:
     theme:
       light: minty
       dark: superhero
    
-    css: styles.css
+    css: styles.scss
     toc: true
 
 
