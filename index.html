@@ -41,10 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-7e1d494e4809f62c10c92cf20c0b83b9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-880907b1b6c5104e82863747c54c2999.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-dark-d1b83c6b3ef57cee554ad263440cbc74.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -153,10 +150,10 @@ ul.task-list li input[type="checkbox"] {
 <div class="grid">
 <section id="the-project" class="level2 g-col-7">
 <h2 class="anchored" data-anchor-id="the-project">The project</h2>
-<p>Sample text here that explains the project in general terms. See a map of the field work area of Finse below! Part of the <a href="https://mountainsinmotion.w.uib.no/">PPF-Alpine</a> research group.</p>
+<p>Sample text here. This should explain the project in general terms. Part of the <a href="https://mountainsinmotion.w.uib.no/">PPF-Alpine</a> research group. See a map of the field work area of Finse below!</p>
 </section>
 <div class="g-col-5">
-<p><a href="./media/drone-bumblebee.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="./media/drone-bumblebee.png" class="no-lightbox img-fluid"></a></p>
+<p><img src="./media/drone-bumblebee.png" class="nolightbox img-fluid" width="300"></p>
 </div>
 </div>
 </div>
@@ -168,8 +165,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-screen-inset-shaded">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-7f6a99acbac7980441ac" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-7f6a99acbac7980441ac">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[60.59364220037374,7.524477900672538,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Finse Alpine Resarch Station",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[60.59364220037374,60.59364220037374],"lng":[7.524477900672538,7.524477900672538]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-ecdc0776c006f4863dc9" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-ecdc0776c006f4863dc9">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[60.59364220037374,7.524477900672538,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Finse Alpine Resarch Station",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[60.59364220037374,60.59364220037374],"lng":[7.524477900672538,7.524477900672538]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
@@ -755,38 +752,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
