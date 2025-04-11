@@ -1,6 +1,6 @@
 ---
 #title: "Drone - Willow - Bumblebee"
-lightbox: true
+lightbox: false
 ---
 
 ::: {.column-page}
@@ -9,11 +9,11 @@ lightbox: true
 
 ::: {.g-col-7}
 ## The project
-Sample text here that explains the project in general terms. See a map of the field work area of Finse below! Part of the [PPF-Alpine](https://mountainsinmotion.w.uib.no/) research group.
+Sample text here. This should explain the project in general terms. Part of the [PPF-Alpine](https://mountainsinmotion.w.uib.no/) research group. See a map of the field work area of Finse below!
 :::
 
 ::: {.g-col-5}
-![](./media/drone-bumblebee.png){.no-lightbox}
+![](./media/drone-bumblebee.png){width=300 .nolightbox}
 :::
 
 :::

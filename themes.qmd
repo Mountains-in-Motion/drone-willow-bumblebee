@@ -8,8 +8,8 @@ lightbox: true
 ::: {.grid}
 
 ::: {.g-col-7}
-## Lidar 
-Text about lidar here. And a better picture. Willow Density Mapping.
+## Drones and lidar 
+Sample Text Here. Section about lidar technology here, in relation to willow density mapping.
 :::
 
 ::: {.g-col-5}
@@ -21,13 +21,13 @@ Text about lidar here. And a better picture. Willow Density Mapping.
 :::
 
 ::: {.g-col-7}
-## Hyper Speed
-Text here about willow gender mapping
+## Willow gender mapping
+Sample Text Here. Section about willow gender mapping.
 :::
 
 ::: {.g-col-7}
-## Bumblebee
-Text here about bumblebee?! 
+## Bumblebee Pollination
+Sample Text Here. Section about bumblebees and pollination. More images needed.
 :::
 
 ::: {.g-col-5}

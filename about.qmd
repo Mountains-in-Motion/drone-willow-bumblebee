@@ -1,42 +1,49 @@
 ---
 #title: "About Us"
+lightbox: false
 ---
 
 :::{.column-page}
 
-::: {layout-ncol=2}
+::: {.grid}
 
+::: {.g-col-5}
 ![](media/benjamin.jpg){width=500}
-
-## Benjamin
-This Benjamin is the best benjamin, ben can do so much. He can fly drone, he can jump. Jeez, he can do whatever. Even take you picture.
-
 :::
 
-::: {layout-ncol=2}
+::: {.g-col-7}
+## Benjamin Aubrey Robson
+Benjamin is ...
+:::
 
+::: {.g-col-5}
 ![](media/flight.png){width=500}
-
-## This Drone
-This drone is the coolest drone, it can do so much. It can fly, It can land, It can jump. Jeez, it can do whatever you want. Even take your picture.
-
+:::
+ 
+::: {.g-col-7}
+## The Drone
+This drone is just here as a sample team member for now... Here will be a list of actual team members etc.
 :::
 
-::: {layout-ncol=2}
- 
+::: {.g-col-5}
 ![](media/alt.png){width=500}
-
-## This Glacier
-This glacier is the coolest glacier, it can do so much. It can slide, It can shrink, It can weep. It can do whatever you want. Even make you cold.
-
 :::
 
-::: {layout-ncol=2}
- 
-## Contact
-Get in touch at ...
+::: {.g-col-7}
+## The Glacier
+This glacier is just here as a sample team member for now... Here will be a list of actual team members etc.
+:::
 
-![](media/pism.png){width=500}
+::: {.g-col-7}
+## Contact
+Get in touch at ... 
+
+This can be either a form fill or contact email.
+:::
+
+::: {.g-col-5}
+![](media/drone-bumblebee.png){width=300}
+:::
 
 :::
 

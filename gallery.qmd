@@ -6,18 +6,20 @@ lightbox: true
 
 ::: {layout-ncol=3}
 
-![A Lovely Image](./media/pism.png){group="my-gallery"}
+![The drone mid flight!](./media/flight.png){group="my-gallery"}
 
-![Another Lovely Image](./media/cnn.png){group="my-gallery"}
+![Jakobshavn Glacier modelled in PISM.](./media/pism.png){group="my-gallery"}
 
-![The Last Lovely Image](./media/alt.png){group="my-gallery"}
+![The drone parked.](./media/drone.jpg){group="my-gallery"}
+
+![Alterach Glacier modelled in IGM.](./media/alt.png){group="my-gallery"}
 
 ![Ben in front of Austdalsbeern with a drone.](media/benjamin.jpg){group="my-gallery"}
 
-![Fifth Lovely Image](./media/benjamin.jpg){group="my-gallery"}
+![Alterach Glacier modelled in IGM again.](./media/alt.png){group="my-gallery"}
 
-![Sixth Lovely Image](./media/flight.png){group="my-gallery"}
- 
+![Here he is again.](./media/benjamin.jpg){group="my-gallery"}
+
 :::
 
 :::
