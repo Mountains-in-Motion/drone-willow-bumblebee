@@ -6,8 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Julien Vadnais">
+<meta name="author" content="Benjamin Robson">
+<meta name="author" content="Yiyao Chen">
+<meta name="author" content="Daniel Thomas">
+<meta name="dcterms.date" content="2026-02-03">
 
-<title>about – Drone-Willow-Bumblebee</title>
+<title>Finse Willow Experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone – Drone-Willow-Bumblebee</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -45,9 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dfa48a90d809c806c7ea2d5aecd9fc66.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-732e7ebf1b939e87c76a48181af9d4db.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-f96baf64eeee7d9c14740eaaf819a2e8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-732e7ebf1b939e87c76a48181af9d4db.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-10f23155831a642240cdee3d4110eff2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-635d5ac1269dd9f2d9298d5c683754ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-10f23155831a642240cdee3d4110eff2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -271,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Finse field work gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./finse-willow-report.html"> 
+    <a class="nav-link active" href="./finse-willow-report.html" aria-current="page"> 
 <span class="menu-text">Drone Report</span></a>
   </li>  
   <li class="nav-item">
@@ -279,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Willow Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About us</span></a>
   </li>  
 </ul>
@@ -294,51 +299,307 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1</span> Overview</a></li>
+  <li><a href="#study-area" id="toc-study-area" class="nav-link" data-scroll-target="#study-area"><span class="header-section-number">2</span> Study Area</a></li>
+  <li><a href="#drone-data" id="toc-drone-data" class="nav-link" data-scroll-target="#drone-data"><span class="header-section-number">3</span> Drone Data</a></li>
+  <li><a href="#model-results-on-the-test-areas" id="toc-model-results-on-the-test-areas" class="nav-link" data-scroll-target="#model-results-on-the-test-areas"><span class="header-section-number">4</span> Model Results on the Test Areas</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">5</span> Appendix</a>
+  <ul class="collapse">
+  <li><a href="#details-about-data-preparation" id="toc-details-about-data-preparation" class="nav-link" data-scroll-target="#details-about-data-preparation"><span class="header-section-number">5.1</span> Details About Data Preparation</a></li>
+  <li><a href="#details-about-the-deep-learning-model-workflow" id="toc-details-about-the-deep-learning-model-workflow" class="nav-link" data-scroll-target="#details-about-the-deep-learning-model-workflow"><span class="header-section-number">5.2</span> Details About the Deep Learning Model Workflow</a></li>
+  <li><a href="#running-the-model-on-the-whole-finse-drone-survey" id="toc-running-the-model-on-the-whole-finse-drone-survey" class="nav-link" data-scroll-target="#running-the-model-on-the-whole-finse-drone-survey"><span class="header-section-number">5.3</span> Running the Model on the Whole Finse Drone Survey</a></li>
+  <li><a href="#suggestions-for-further-work" id="toc-suggestions-for-further-work" class="nav-link" data-scroll-target="#suggestions-for-further-work"><span class="header-section-number">5.4</span> Suggestions for Further Work</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
 
-
-
-
-<div class="column-page">
-<div class="grid">
-<div class="g-col-5">
-<p><img src="media/benjamin.jpg" class="img-fluid" width="500"></p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Finse Willow Experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone</h1>
 </div>
-<section id="benjamin-aubrey-robson" class="level2 g-col-7">
-<h2 class="anchored" data-anchor-id="benjamin-aubrey-robson">Benjamin Aubrey Robson</h2>
-<p>Benjamin is …</p>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Julien Vadnais </p>
+             <p>Benjamin Robson </p>
+             <p>Yiyao Chen </p>
+             <p>Daniel Thomas </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 3, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>With Ørjan Totland, Suzette Flantua, Augusto Lima, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud.</p>
+  </div>
+</div>
+
+
+</header>
+
+
+<section id="overview" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="overview"><span class="header-section-number">1</span> Overview</h2>
+<p>Two species of willows populate the surroundings of Finse, Norway: <em>Salix lanata</em> and <em>Salix glauca</em>. They are thought to be important to pollinators, and it is unclear how their spatial extent has changed in the last decades due to climate change.</p>
+<p>This short report presents experimental results of an automatic method to map willow bushes in the Norwegian mountain plateau. The method is based on a deep learning model, high-resolution drone imagery, and field sampling. Results show that the resulting model can effectively delineate the willows in unseen images, thus demonstrating it could be used operationally on a larger scale.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig1_finse_center.png" class="img-fluid figure-img"></p>
+<figcaption>The Finse Alpine Research Center, with willow bushes in the centre foreground.</figcaption>
+</figure>
+</div>
 </section>
-<div class="g-col-5">
-<p><img src="media/flight.png" class="img-fluid" width="500"></p>
+<section id="study-area" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="study-area"><span class="header-section-number">2</span> Study Area</h2>
+<p>The study area is made of five zones, chosen in relation to the M.Sc projects of Savanna and Ingrid. We conducted a series of field transects on 24–25 July 2025, using an ArcGIS FieldMaps project to geolocate willow bushes. Out of the five zones, three were covered by our drone survey, covering about 2 000 000 m².</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig2_study_area.png" class="img-fluid figure-img"></p>
+<figcaption>Map of the study area around Finse. Lime green: The three zones covered by drone in this report. Basemap: Satellite imagery. Red stars: Willow bushes reported during field transects.</figcaption>
+</figure>
 </div>
-<section id="the-drone" class="level2 g-col-7">
-<h2 class="anchored" data-anchor-id="the-drone">The Drone</h2>
-<p>This drone is just here as a sample team member for now… Here will be a list of actual team members etc.</p>
 </section>
-<div class="g-col-5">
-<p><img src="media/alt.png" class="img-fluid" width="500"></p>
+<section id="drone-data" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="drone-data"><span class="header-section-number">3</span> Drone Data</h2>
+<p>We used a Wingtra drone equipped with a MicaSense RE-P camera, which captures images in five spectral bands: blue, green, red, red edge, and near-infrared (NIR). The area flown over is mostly hilly and open, with aerial power lines as the only notable obstacle. Images were collected with a spatial resolution of 4 cm per pixel, and were preprocessed to reduce the effect of shadows and variations in contrast. Capturing fine spatial and spectral details is key for this automatic method to work; otherwise, the results would degrade significantly.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig3_drone_landscape.png" class="img-fluid figure-img"></p>
+<figcaption>Landscape around Finse imaged by the Wingtra drone. Elevated power lines can be seen here.</figcaption>
+</figure>
 </div>
-<section id="the-glacier" class="level2 g-col-7">
-<h2 class="anchored" data-anchor-id="the-glacier">The Glacier</h2>
-<p>This glacier is just here as a sample team member for now… Here will be a list of actual team members etc.</p>
 </section>
-<section id="contact" class="level2 g-col-7">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p>Get in touch at …</p>
-<p>This can be either a form fill or contact email.</p>
+<section id="model-results-on-the-test-areas" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="model-results-on-the-test-areas"><span class="header-section-number">4</span> Model Results on the Test Areas</h2>
+<p>We present visual results on three test areas, using the model which offered the best and most stable performance during validation. It is a DeepLabV3 model, using a ResNet-50 backbone as feature encoder, and using tiles of 786×786 pixels (Table 2). Below (Fig. 4–6), we show the model’s performance when predicting on unseen images. The ground truth images show willows as mapped manually, which was done with help of the field mapping.</p>
+<div class="quarto-layout-panel" data-layout-ncol="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig4_test_area.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 4: Test area 1</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig5_test_area2.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 5: Test area 2</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig6_test_area3.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 6: Test area 3</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </section>
-<div class="g-col-5">
-<p><img src="media/drone-bumblebee.png" class="img-fluid" width="300"></p>
+<section id="appendix" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="appendix"><span class="header-section-number">5</span> Appendix</h2>
+<section id="details-about-data-preparation" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="details-about-data-preparation"><span class="header-section-number">5.1</span> Details About Data Preparation</h3>
+<p>Annotating the drone imagery for willows is time-consuming. To prepare a training dataset, we first delimited smaller zones for the training, validation, and testing phase. It is important that the testing area does not overlap with the areas in which images were seen during training. Identifying the willow bushes in the drone images is possible, particularly if the images were taken during the flowering stage of the willows. However, field sampling and geolocation of willow bushes made interpreting the images and creating the training data much easier.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig7_annotated_areas.png" class="img-fluid figure-img"></p>
+<figcaption>Annotated areas, split for training/validation/testing.</figcaption>
+</figure>
 </div>
+</section>
+<section id="details-about-the-deep-learning-model-workflow" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="details-about-the-deep-learning-model-workflow"><span class="header-section-number">5.2</span> Details About the Deep Learning Model Workflow</h3>
+<p>We split the drone images in smaller tiles (512 and 786 pixels), using a tiling overlap of half the tile size, and keeping the optical (RGB) bands only. The deep learning models were implemented in ArcGIS Pro (DeepLabV3), and PyTorch (U-Net and Segformer). The backbones are initialized with weights from ImageNet pretraining. We used the default image augmentations implemented in ArcGIS: random rotations, flips, pixel shifts and croppings. Padding and overlap is used during test-time predictions. Models were trained by monitoring the default cross-entropy loss function on a 10% validation split.</p>
+<p>Below, we show our comparison results for different models evaluated on the validation split. Models are compared using a tile size of 512 (Table 1) and 768 pixels (Table 2).</p>
+<div id="tbl-512" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-512-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: 512×512 tiles: Model comparison (Dice score) on the validation split.
+</figcaption>
+<div aria-describedby="tbl-512-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Backbone</th>
+<th>DeepLabV3</th>
+<th>U-Net</th>
+<th>Segformer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ResNet-50</td>
+<td>0.797</td>
+<td>0.797</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>ResNet-101</td>
+<td>0.803</td>
+<td>0.801</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>DenseNet-121</td>
+<td>0.734</td>
+<td>0.791</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>EfficientNet-b7</td>
+<td>/</td>
+<td>0.798</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>MiT-b4</td>
+<td>/</td>
+<td>/</td>
+<td>0.796</td>
+</tr>
+<tr class="even">
+<td>MiT-b5</td>
+<td>/</td>
+<td>/</td>
+<td>0.793</td>
+</tr>
+</tbody>
+</table>
 </div>
+</figure>
+</div>
+<div id="tbl-768" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-768-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: 768×768 tiles: Model comparison (Dice score) on the validation split.
+</figcaption>
+<div aria-describedby="tbl-768-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Backbone</th>
+<th>DeepLabV3</th>
+<th>U-Net</th>
+<th>Segformer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ResNet-50</td>
+<td>0.818</td>
+<td>0.811</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>ResNet-101</td>
+<td>0.778</td>
+<td>0.815</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>DenseNet-121</td>
+<td>0.732</td>
+<td>0.771</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>EfficientNet-b7</td>
+<td>/</td>
+<td>0.782</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>MiT-b4</td>
+<td>/</td>
+<td>/</td>
+<td>0.784</td>
+</tr>
+<tr class="even">
+<td>MiT-b5</td>
+<td>/</td>
+<td>/</td>
+<td>0.789</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="running-the-model-on-the-whole-finse-drone-survey" class="level3" data-number="5.3">
+<h3 data-number="5.3" class="anchored" data-anchor-id="running-the-model-on-the-whole-finse-drone-survey"><span class="header-section-number">5.3</span> Running the Model on the Whole Finse Drone Survey</h3>
+<p>Here are preliminary results showing what we obtain from running the model on the whole study area — for illustrative purposes only!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig8_zone1_predictions.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 8: Model predictions: Drone survey zone 1</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig9_zone2_predictions.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 9: Model predictions: Drone survey zone 2</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig10_zone3_predictions.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 10: Model predictions: Drone survey zone 3</figcaption>
+</figure>
+</div>
+</section>
+<section id="suggestions-for-further-work" class="level3" data-number="5.4">
+<h3 data-number="5.4" class="anchored" data-anchor-id="suggestions-for-further-work"><span class="header-section-number">5.4</span> Suggestions for Further Work</h3>
+<p>Here are some suggestions worth looking into for improving future deep learning models. During training, backbone weights were kept frozen due to working with a relatively small training dataset; however, unfreezing the backbone may lead to better model performance, particularly with a larger training dataset. In this study, we also only worked with RGB bands, due to frozen backbones being optimized on such optical images. Further work could explore if adding the near-infrared band or additional information such as a lidar-derived DEM could improve model performance. There is probably room for improvement through implementing more advanced deep learning methods (e.g.&nbsp;ensemble models, transformer-style encoders). Nonetheless, our results have shown that a basic convolutional neural network workflow works very well and shows great potential for this method to be implemented operationally.</p>
+<p>Lastly, we could train a model using only the panchromatic band of the MicaSense camera. This would allow for running the model on historical images captured in the panchromatic band, such as aerial surveys since the 1960s, which have been made openly available on <a href="https://norgeibilder.no">norgeibilder.no</a> (Fig. 11).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/drone_report_images/fig11_aerial_1972.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 11: Aerial survey of the study area (upper two zones in Fig. 7), 13 August 1972. Panchromatic image at 20-cm pixel resolution. Source: Norge i bilder.</figcaption>
+</figure>
 </div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,24 +1,59 @@
 [
   {
+    "objectID": "willow-identification.html",
+    "href": "willow-identification.html",
+    "title": "Willow Identification — Finse Fieldwork",
+    "section": "",
+    "text": "This is a guide for identification of the willow bush (Salix) and geotagging of individuals in the field. We are identifying two different species of willow as well as determining the gender for each plant. The two species are Salix lapponum and Salix lanata and are determined based on their leaf shape and features. The gender of the plant is determined in the same way for both species by looking at the flower (catkin). A few other variables should also be recorded when geotagging, see Section 3 for more.\nIdentification Quick Summary\nTo determine the species, look at the leaf. To determine the gender, look at the flower.\n\n\n\n\n\n\n\nSpecies\nLeaf features\n\n\n\n\nSalix lapponum\nLonger, narrower leaves. Can be downy underneath.\n\n\nSalix lanata\nDowny/hairy and shorter leaves. Downy on both sides, more underneath.\n\n\n\n\n\n\nGender\nFlower features\n\n\n\n\nMale\nFlowers have long thin stems with a dark or yellow tip\n\n\nFemale\nFlowers have thick ovaries instead of thin stems"
+  },
+  {
+    "objectID": "willow-identification.html#overview",
+    "href": "willow-identification.html#overview",
+    "title": "Willow Identification — Finse Fieldwork",
+    "section": "",
+    "text": "This is a guide for identification of the willow bush (Salix) and geotagging of individuals in the field. We are identifying two different species of willow as well as determining the gender for each plant. The two species are Salix lapponum and Salix lanata and are determined based on their leaf shape and features. The gender of the plant is determined in the same way for both species by looking at the flower (catkin). A few other variables should also be recorded when geotagging, see Section 3 for more.\nIdentification Quick Summary\nTo determine the species, look at the leaf. To determine the gender, look at the flower.\n\n\n\n\n\n\n\nSpecies\nLeaf features\n\n\n\n\nSalix lapponum\nLonger, narrower leaves. Can be downy underneath.\n\n\nSalix lanata\nDowny/hairy and shorter leaves. Downy on both sides, more underneath.\n\n\n\n\n\n\nGender\nFlower features\n\n\n\n\nMale\nFlowers have long thin stems with a dark or yellow tip\n\n\nFemale\nFlowers have thick ovaries instead of thin stems"
+  },
+  {
+    "objectID": "willow-identification.html#determining-species-and-gender",
+    "href": "willow-identification.html#determining-species-and-gender",
+    "title": "Willow Identification — Finse Fieldwork",
+    "section": "2 Determining Species and Gender",
+    "text": "2 Determining Species and Gender\n\n2.1 How to Distinguish Species\nTo determine between the two species S. lapponum and S. lanata, look at the shape of the leaves and the amount of down (small soft hairs on the leaf).\n\n2.1.1 Example lapponum\nSalix lapponum have longer, narrower, grey-green leaves. The leaves are elliptic, and can be slightly downy underneath. Variation of shape occurs.\n\n\n\nSalix lapponum. From: luontoportti.com\n\n\n\n\n2.1.2 Example lanata\nSalix lanata have shorter, rounder leaves with down (fuzzy, soft, short, white hairs) on either side of the leaf.\n\n\n\nSalix lanata. From: luontoportti.com\n\n\n\n\n\n2.2 How to Distinguish Gender\nTo separate females from males we look at the catkins (or flowers). Male plants have flowers with many thin stems with black dotted tips. Female flowers have no thin stems but thicker ovaries.\n\n2.2.1 Example Female\nFemale flowers have many thick ovaries pointing out in all directions from the catkin.\n\n\n\nFemale catkin\n\n\n\n\n2.2.2 Example Male\nMale flowers have many long thin stems with a dark or yellow tip. They can often appear hairy/fuzzy.\n\n\n\nMale catkin"
+  },
+  {
+    "objectID": "willow-identification.html#how-to-geotag-willows-in-the-field",
+    "href": "willow-identification.html#how-to-geotag-willows-in-the-field",
+    "title": "Willow Identification — Finse Fieldwork",
+    "section": "3 How to Geotag Willows in the Field",
+    "text": "3 How to Geotag Willows in the Field\nThere are four variables to log for each plant: species, gender, flowering, and fruiting. In addition, 2–3 pictures should be taken of the flower and leaves. Make sure to zoom in on the leaves and flowers, and one picture should show the size of the willow and surroundings. It is good to include a backpack or something for scale.\nIn the field, have the ArcGIS Field Maps app open with GPS enabled and the current project open. Steps to geotag a new specimen:\n\nStop with a willow bush and wait a few seconds to let the GPS location “catch up” if it’s still moving.\nClick on the plus symbol and then ADD POINT.\nSelect species, gender and flowering from the drop down menus.\nWithin the app, select TAKE PHOTO and take 2–3 pictures zoomed into the flower and leaves, and one overview picture.\n\n\n3.1 Flowering and Fruiting\nTo log flowering (yes or no), note if the plant has any flowers (catkins) at all. If no flowers are present, set flowering to no. Note that this means no gender can be determined for the plant either.\nTo log fruiting (yes or no), we need some expert help to clear up the process first."
+  },
+  {
+    "objectID": "willow-identification.html#examples",
+    "href": "willow-identification.html#examples",
+    "title": "Willow Identification — Finse Fieldwork",
+    "section": "4 Examples",
+    "text": "4 Examples\nHere are some example photographs from the previous field trip.\n\n4.1 Species Examples\n\n4.1.1 S. lapponum\n\n\n\n\n\n\nSalix lapponum\n\n\n\n\n\n\n\nSalix lapponum\n\n\n\n\n\n\n\n\n\nSalix lapponum\n\n\n\n\n\n\n\nSalix lapponum\n\n\n\n\n\n\n\n4.1.2 S. lanata\n\n\n\nSalix lanata. From: luontoportti.com\n\n\n\n\n\n\n\n\nSalix lanata\n\n\n\n\n\n\n\nSalix lanata\n\n\n\n\n\n\n\n\n\nSalix lanata\n\n\n\n\n\n\n\nSalix lanata\n\n\n\n\n\n\n\n\n4.2 Gender Examples\n\n4.2.1 Female\n\n\n\n\n\n\nFemale\n\n\n\n\n\n\n\nFemale\n\n\n\n\n\n\n\n\n\nFemale\n\n\n\n\n\n\n\nFemale\n\n\n\n\n\n\n\n4.2.2 Male\n\n\n\n\n\n\nMale\n\n\n\n\n\n\n\nMale\n\n\n\n\n\n\n\n\n\nMale\n\n\n\n\n\n\n\nMale"
+  },
+  {
     "objectID": "themes.html",
     "href": "themes.html",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "Sample Text Here. Section about lidar technology here, in relation to willow density mapping.\n\n\n\n\n\nThe drone is flying.\n\n\n\n\n\n\n\nThe drone is parked.\n\n\n\n\n\nSample Text Here. Section about willow gender mapping.\n\n\n\nSample Text Here. Section about bumblebees and pollination. More images needed.\n\n\n\n\n\nA glacier model."
+    "text": "Section about drone technology here, in relation to willow density mapping. Here is the report.\n\n\n\n\n\nThe drone is flying.\n\n\n\n\n\n\n\nIs this a Salix Lapponum or a Salix Lanata?\n\n\n\n\n\nManually identifying the species and gender of willow bushes in the field can be challenging. Here is a field guide to help distinguish between the two target species and genders.\n\n\n\nSample Text Here. Section about bumblebees and pollination. More images needed.\n\n\n\n\n\nA glacier model."
   },
   {
-    "objectID": "themes.html#drones-and-lidar",
-    "href": "themes.html#drones-and-lidar",
+    "objectID": "themes.html#flying-drones-and-capturing-lidar-data",
+    "href": "themes.html#flying-drones-and-capturing-lidar-data",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "Sample Text Here. Section about lidar technology here, in relation to willow density mapping."
+    "text": "Section about drone technology here, in relation to willow density mapping. Here is the report."
   },
   {
-    "objectID": "themes.html#willow-gender-mapping",
-    "href": "themes.html#willow-gender-mapping",
+    "objectID": "themes.html#willow-identification-and-mapping",
+    "href": "themes.html#willow-identification-and-mapping",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "Sample Text Here. Section about willow gender mapping."
+    "text": "Manually identifying the species and gender of willow bushes in the field can be challenging. Here is a field guide to help distinguish between the two target species and genders."
   },
   {
     "objectID": "themes.html#bumblebee-pollination",
@@ -28,11 +63,67 @@
     "text": "Sample Text Here. Section about bumblebees and pollination. More images needed."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Drone-Willow-Bumblebee",
+    "section": "",
+    "text": "In the rugged mountains of Western Norway, two species of willow (Salix lanata and Salix lapponum) play a quiet but vital role the life of bumblebees. As climate change reshapes mountain landscapes, understanding how these willow shrubs are spreading or retreating is becoming increasingly important. This project combines drone photography, field surveys, and artificial intelligence in a pilot study to attempt to automatically detect and map willow bushes across the Finse area.\nBy training a deep learning model to recognize willows from high-resolution aerial images, we should be able to survey vast and remote areas far faster than would ever be possible on foot. Although, gathering training data still involves a lot of manual identification and hiking in the gorgeous Finse mountain region. This field work and research can open the door to large-scale monitoring of these ecologically important shrubs for years to come. The project is a cross disciplinary pilot study, in collaboration with the PPF-Alpine group and XXXX. Last autumn, two field campaigns were successfully executed and.\nHave a look at the various topics we present here. See a map of the field work area of Finse below!\n\n\n\n\n\nFinse research station ‘live’ webcam, updated daily some time between 6:00 and 18:00.\n\n\n\n\n\nFinse research station ‘live’ webcam, updated daily some time between 6:00 and 18:00."
+  },
+  {
+    "objectID": "index.html#the-drone-willow-bumblebee-project",
+    "href": "index.html#the-drone-willow-bumblebee-project",
+    "title": "Drone-Willow-Bumblebee",
+    "section": "",
+    "text": "In the rugged mountains of Western Norway, two species of willow (Salix lanata and Salix lapponum) play a quiet but vital role the life of bumblebees. As climate change reshapes mountain landscapes, understanding how these willow shrubs are spreading or retreating is becoming increasingly important. This project combines drone photography, field surveys, and artificial intelligence in a pilot study to attempt to automatically detect and map willow bushes across the Finse area.\nBy training a deep learning model to recognize willows from high-resolution aerial images, we should be able to survey vast and remote areas far faster than would ever be possible on foot. Although, gathering training data still involves a lot of manual identification and hiking in the gorgeous Finse mountain region. This field work and research can open the door to large-scale monitoring of these ecologically important shrubs for years to come. The project is a cross disciplinary pilot study, in collaboration with the PPF-Alpine group and XXXX. Last autumn, two field campaigns were successfully executed and.\nHave a look at the various topics we present here. See a map of the field work area of Finse below!"
+  },
+  {
     "objectID": "gallery.html",
     "href": "gallery.html",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
     "text": "The drone mid flight!\n\n\n\n\n\n\n\nJakobshavn Glacier modelled in PISM.\n\n\n\n\n\n\n\nThe drone parked.\n\n\n\n\n\n\n\n\n\nAlterach Glacier modelled in IGM.\n\n\n\n\n\n\n\nBen in front of Austdalsbeern with a drone.\n\n\n\n\n\n\n\nAlterach Glacier modelled in IGM again.\n\n\n\n\n\n\n\n\n\nHere he is again."
+  },
+  {
+    "objectID": "finse-willow-report.html",
+    "href": "finse-willow-report.html",
+    "title": "Finse Willow Experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone",
+    "section": "",
+    "text": "Two species of willows populate the surroundings of Finse, Norway: Salix lanata and Salix glauca. They are thought to be important to pollinators, and it is unclear how their spatial extent has changed in the last decades due to climate change.\nThis short report presents experimental results of an automatic method to map willow bushes in the Norwegian mountain plateau. The method is based on a deep learning model, high-resolution drone imagery, and field sampling. Results show that the resulting model can effectively delineate the willows in unseen images, thus demonstrating it could be used operationally on a larger scale.\n\n\n\nThe Finse Alpine Research Center, with willow bushes in the centre foreground."
+  },
+  {
+    "objectID": "finse-willow-report.html#overview",
+    "href": "finse-willow-report.html#overview",
+    "title": "Finse Willow Experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone",
+    "section": "",
+    "text": "Two species of willows populate the surroundings of Finse, Norway: Salix lanata and Salix glauca. They are thought to be important to pollinators, and it is unclear how their spatial extent has changed in the last decades due to climate change.\nThis short report presents experimental results of an automatic method to map willow bushes in the Norwegian mountain plateau. The method is based on a deep learning model, high-resolution drone imagery, and field sampling. Results show that the resulting model can effectively delineate the willows in unseen images, thus demonstrating it could be used operationally on a larger scale.\n\n\n\nThe Finse Alpine Research Center, with willow bushes in the centre foreground."
+  },
+  {
+    "objectID": "finse-willow-report.html#study-area",
+    "href": "finse-willow-report.html#study-area",
+    "title": "Finse Willow Experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone",
+    "section": "2 Study Area",
+    "text": "2 Study Area\nThe study area is made of five zones, chosen in relation to the M.Sc projects of Savanna and Ingrid. We conducted a series of field transects on 24–25 July 2025, using an ArcGIS FieldMaps project to geolocate willow bushes. Out of the five zones, three were covered by our drone survey, covering about 2 000 000 m².\n\n\n\nMap of the study area around Finse. Lime green: The three zones covered by drone in this report. Basemap: Satellite imagery. Red stars: Willow bushes reported during field transects."
+  },
+  {
+    "objectID": "finse-willow-report.html#drone-data",
+    "href": "finse-willow-report.html#drone-data",
+    "title": "Finse Willow Experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone",
+    "section": "3 Drone Data",
+    "text": "3 Drone Data\nWe used a Wingtra drone equipped with a MicaSense RE-P camera, which captures images in five spectral bands: blue, green, red, red edge, and near-infrared (NIR). The area flown over is mostly hilly and open, with aerial power lines as the only notable obstacle. Images were collected with a spatial resolution of 4 cm per pixel, and were preprocessed to reduce the effect of shadows and variations in contrast. Capturing fine spatial and spectral details is key for this automatic method to work; otherwise, the results would degrade significantly.\n\n\n\nLandscape around Finse imaged by the Wingtra drone. Elevated power lines can be seen here."
+  },
+  {
+    "objectID": "finse-willow-report.html#model-results-on-the-test-areas",
+    "href": "finse-willow-report.html#model-results-on-the-test-areas",
+    "title": "Finse Willow Experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone",
+    "section": "4 Model Results on the Test Areas",
+    "text": "4 Model Results on the Test Areas\nWe present visual results on three test areas, using the model which offered the best and most stable performance during validation. It is a DeepLabV3 model, using a ResNet-50 backbone as feature encoder, and using tiles of 786×786 pixels (Table 2). Below (Fig. 4–6), we show the model’s performance when predicting on unseen images. The ground truth images show willows as mapped manually, which was done with help of the field mapping.\n\n\n\n\n\n\nFigure 4: Test area 1\n\n\n\n\n\n\n\n\n\n\n\nFigure 5: Test area 2\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: Test area 3"
+  },
+  {
+    "objectID": "finse-willow-report.html#appendix",
+    "href": "finse-willow-report.html#appendix",
+    "title": "Finse Willow Experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone",
+    "section": "5 Appendix",
+    "text": "5 Appendix\n\n5.1 Details About Data Preparation\nAnnotating the drone imagery for willows is time-consuming. To prepare a training dataset, we first delimited smaller zones for the training, validation, and testing phase. It is important that the testing area does not overlap with the areas in which images were seen during training. Identifying the willow bushes in the drone images is possible, particularly if the images were taken during the flowering stage of the willows. However, field sampling and geolocation of willow bushes made interpreting the images and creating the training data much easier.\n\n\n\nAnnotated areas, split for training/validation/testing.\n\n\n\n\n5.2 Details About the Deep Learning Model Workflow\nWe split the drone images in smaller tiles (512 and 786 pixels), using a tiling overlap of half the tile size, and keeping the optical (RGB) bands only. The deep learning models were implemented in ArcGIS Pro (DeepLabV3), and PyTorch (U-Net and Segformer). The backbones are initialized with weights from ImageNet pretraining. We used the default image augmentations implemented in ArcGIS: random rotations, flips, pixel shifts and croppings. Padding and overlap is used during test-time predictions. Models were trained by monitoring the default cross-entropy loss function on a 10% validation split.\nBelow, we show our comparison results for different models evaluated on the validation split. Models are compared using a tile size of 512 (Table 1) and 768 pixels (Table 2).\n\n\n\nTable 1: 512×512 tiles: Model comparison (Dice score) on the validation split.\n\n\n\n\n\nBackbone\nDeepLabV3\nU-Net\nSegformer\n\n\n\n\nResNet-50\n0.797\n0.797\n/\n\n\nResNet-101\n0.803\n0.801\n/\n\n\nDenseNet-121\n0.734\n0.791\n/\n\n\nEfficientNet-b7\n/\n0.798\n/\n\n\nMiT-b4\n/\n/\n0.796\n\n\nMiT-b5\n/\n/\n0.793\n\n\n\n\n\n\n\n\n\nTable 2: 768×768 tiles: Model comparison (Dice score) on the validation split.\n\n\n\n\n\nBackbone\nDeepLabV3\nU-Net\nSegformer\n\n\n\n\nResNet-50\n0.818\n0.811\n/\n\n\nResNet-101\n0.778\n0.815\n/\n\n\nDenseNet-121\n0.732\n0.771\n/\n\n\nEfficientNet-b7\n/\n0.782\n/\n\n\nMiT-b4\n/\n/\n0.784\n\n\nMiT-b5\n/\n/\n0.789\n\n\n\n\n\n\n\n\n5.3 Running the Model on the Whole Finse Drone Survey\nHere are preliminary results showing what we obtain from running the model on the whole study area — for illustrative purposes only!\n\n\n\nFigure 8: Model predictions: Drone survey zone 1\n\n\n\n\n\nFigure 9: Model predictions: Drone survey zone 2\n\n\n\n\n\nFigure 10: Model predictions: Drone survey zone 3\n\n\n\n\n5.4 Suggestions for Further Work\nHere are some suggestions worth looking into for improving future deep learning models. During training, backbone weights were kept frozen due to working with a relatively small training dataset; however, unfreezing the backbone may lead to better model performance, particularly with a larger training dataset. In this study, we also only worked with RGB bands, due to frozen backbones being optimized on such optical images. Further work could explore if adding the near-infrared band or additional information such as a lidar-derived DEM could improve model performance. There is probably room for improvement through implementing more advanced deep learning methods (e.g. ensemble models, transformer-style encoders). Nonetheless, our results have shown that a basic convolutional neural network workflow works very well and shows great potential for this method to be implemented operationally.\nLastly, we could train a model using only the panchromatic band of the MicaSense camera. This would allow for running the model on historical images captured in the panchromatic band, such as aerial surveys since the 1960s, which have been made openly available on norgeibilder.no (Fig. 11).\n\n\n\nFigure 11: Aerial survey of the study area (upper two zones in Fig. 7), 13 August 1972. Panchromatic image at 20-cm pixel resolution. Source: Norge i bilder."
   },
   {
     "objectID": "about.html",
@@ -68,19 +159,5 @@
     "title": "Drone-Willow-Bumblebee",
     "section": "",
     "text": "Get in touch at …\nThis can be either a form fill or contact email."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Drone-Willow-Bumblebee",
-    "section": "",
-    "text": "Sample text here. This should explain the project in general terms. Part of the PPF-Alpine research group. See a map of the field work area of Finse below!"
-  },
-  {
-    "objectID": "index.html#the-project",
-    "href": "index.html#the-project",
-    "title": "Drone-Willow-Bumblebee",
-    "section": "",
-    "text": "Sample text here. This should explain the project in general terms. Part of the PPF-Alpine research group. See a map of the field work area of Finse below!"
   }
 ]
