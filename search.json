@@ -39,7 +39,7 @@
     "href": "themes.html",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "Section about drone technology here, in relation to willow density mapping. Here is the report.\n\n\n\n\n\nThe drone is flying.\n\n\n\n\n\n\n\nIs this a Salix Lapponum or a Salix Lanata?\n\n\n\n\n\nManually identifying the species and gender of willow bushes in the field can be challenging. Here is a field guide to help distinguish between the two target species and genders.\n\n\n\nSample Text Here. Section about bumblebees and pollination. More images needed.\n\n\n\n\n\nA glacier model."
+    "text": "Section about drone technology here, in relation to willow density mapping. Here is the report.\n\n\n\n\n\nThe drone is flying.\n\n\n\n\n\n\n\nIs this a Salix Lapponum or a Salix Lanata?\n\n\n\n\n\nManually identifying the species and gender of willow bushes in the field can be challenging. Here is a field guide to help distinguish between the two target species and genders.\n\n\n\nCheck out all the pictures from the field. Shots from both bush- and birds-eyes view!\n\n\n\n\n\nGo to the gallery for more.\n\n\n\n\n\n\n\nA part of the team.\n\n\n\n\n\nHere you can find some information about the team, and how to get in touch."
   },
   {
     "objectID": "themes.html#flying-drones-and-capturing-lidar-data",
@@ -56,18 +56,25 @@
     "text": "Manually identifying the species and gender of willow bushes in the field can be challenging. Here is a field guide to help distinguish between the two target species and genders."
   },
   {
-    "objectID": "themes.html#bumblebee-pollination",
-    "href": "themes.html#bumblebee-pollination",
+    "objectID": "themes.html#picture-gallery",
+    "href": "themes.html#picture-gallery",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "Sample Text Here. Section about bumblebees and pollination. More images needed."
+    "text": "Check out all the pictures from the field. Shots from both bush- and birds-eyes view!"
+  },
+  {
+    "objectID": "themes.html#the-team",
+    "href": "themes.html#the-team",
+    "title": "Drone-Willow-Bumblebee",
+    "section": "",
+    "text": "Here you can find some information about the team, and how to get in touch."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "In the rugged mountains of Western Norway, two species of willow (Salix lanata and Salix lapponum) play a quiet but vital role the life of bumblebees. As climate change reshapes mountain landscapes, understanding how these willow shrubs are spreading or retreating is becoming increasingly important. This project combines drone photography, field surveys, and artificial intelligence in a pilot study to attempt to automatically detect and map willow bushes across the Finse area.\nBy training a deep learning model to recognize willows from high-resolution aerial images, we should be able to survey vast and remote areas far faster than would ever be possible on foot. Although, gathering training data still involves a lot of manual identification and hiking in the gorgeous Finse mountain region. This field work and research can open the door to large-scale monitoring of these ecologically important shrubs for years to come. The project is a cross disciplinary pilot study, in collaboration with the PPF-Alpine group and XXXX. Last autumn, two field campaigns were successfully executed and.\nHave a look at the various topics we present here. See a map of the field work area of Finse below!\n\n\n\n\n\nFinse research station ‘live’ webcam, updated daily some time between 6:00 and 18:00.\n\n\n\n\n\nFinse research station ‘live’ webcam, updated daily some time between 6:00 and 18:00."
+    "text": "In the rugged mountains of Western Norway, two species of willow (Salix lanata and Salix lapponum) play a quiet but vital role the life of bumblebees. As climate change reshapes mountain landscapes, understanding how these willow shrubs are spreading or retreating is becoming increasingly important. This project combines drone photography, field surveys, and artificial intelligence in a pilot study to attempt to automatically detect and map willow bushes across the Finse area.\nBy training a deep learning model to recognize willows from high-resolution aerial images, we should be able to survey vast and remote areas far faster than would ever be possible on foot. Although, gathering training data still involves a lot of manual identification and hiking in the gorgeous Finse mountain region. This field work and research can open the door to large-scale monitoring of these ecologically important shrubs for years to come. The project is a cross disciplinary pilot study, in collaboration with the PPF-Alpine group and XXXX. Last autumn, two field campaigns were successfully executed and.\nHave a look at the various topics we present here. See a map of the field work area of Finse below!\n\n\n\n\n\nField work group, July(?) 2025\n\n\n\n\n\nFinse research station ‘live’ webcam, updated daily some time between 6:00 and 18:00. Can you spot any willow bushes?"
   },
   {
     "objectID": "index.html#the-drone-willow-bumblebee-project",
