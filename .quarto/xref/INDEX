@@ -13,5 +13,15 @@
   },
   "themes.qmd": {
     "themes.html": "dcb88d03"
+  },
+  "willow.qmd": {
+    "willow.html": "1a58f515"
+  },
+  "willow-identification.qmd": {
+    "willow-identification.html": "6d8270de"
+  },
+  "finse-willow-report.qmd": {
+    "finse-willow-report.tex": "284e7e5c",
+    "finse-willow-report.html": "2e346e27"
   }
 }

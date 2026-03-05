@@ -1,0 +1,138 @@
+---
+title: "Willow Identification — Finse Fieldwork"
+author: "Sjur Barndon, Raúl Pérez Prats, Suzette Flantua"
+date: "2025-07-23"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Contents"
+    number-sections: true
+---
+
+## Overview
+
+This is a guide for identification of the willow bush (*Salix*) and geotagging of individuals in the field. We are identifying two different species of willow as well as determining the gender for each plant. The two species are ***Salix lapponum*** and ***Salix lanata*** and are determined based on their leaf shape and features. The gender of the plant is determined in the same way for both species by looking at the flower (*catkin*). A few other variables should also be recorded when geotagging, see [Section 3](#how-to-geotag-willows-in-the-field) for more.
+
+**Identification Quick Summary**
+
+To determine the species, look at the leaf. To determine the gender, look at the flower.
+
+| Species | Leaf features |
+|---|---|
+| *Salix **lapponum*** | Longer, narrower leaves. Can be downy underneath. |
+| *Salix **lanata*** | Downy/hairy and shorter leaves. Downy on both sides, more underneath. |
+
+| Gender | Flower features |
+|---|---|
+| Male | Flowers have long thin stems with a dark or yellow tip |
+| Female | Flowers have thick *ovaries* instead of thin stems |
+
+## Determining Species and Gender
+
+### How to Distinguish Species
+
+To determine between the two species *S. lapponum* and *S. lanata*, look at the **shape of the leaves and the amount of down** (small soft hairs on the leaf).
+
+#### Example *lapponum*
+
+*Salix lapponum* have longer, narrower, grey-green leaves. The leaves are elliptic, and can be slightly downy underneath. Variation of shape occurs.
+
+![*Salix lapponum*. From: [luontoportti.com](https://luontoportti.com/no/t/949/downy-willow)](media/willow_identification_images/lapponum_example.png){width=600}
+
+#### Example *lanata*
+
+*Salix lanata* have shorter, rounder leaves with down (fuzzy, soft, short, white hairs) on either side of the leaf.
+
+![*Salix lanata*. From: [luontoportti.com](https://luontoportti.com/no/t/1580/woolly-willow)](media/willow_identification_images/lanata_example.png){width=600}
+
+### How to Distinguish Gender
+
+To separate females from males we look at the *catkins* (or flowers). Male plants have flowers with many thin stems with black dotted tips. Female flowers have no thin stems but thicker *ovaries*.
+
+#### Example Female
+
+Female flowers have many thick *ovaries* pointing out in all directions from the *catkin*.
+
+![Female catkin](media/willow_identification_images/female_example.png){width=600}
+
+#### Example Male
+
+Male flowers have many long thin stems with a dark or yellow tip. They can often appear hairy/fuzzy.
+
+![Male catkin](media/willow_identification_images/male_example.png){width=600}
+
+## How to Geotag Willows in the Field
+
+There are four variables to log for each plant: *species*, *gender*, *flowering*, and *fruiting*. In addition, **2–3 pictures** should be taken of the flower and leaves. Make sure to zoom in on the leaves and flowers, and one picture should show the size of the willow and surroundings. It is good to include a backpack or something for scale.
+
+In the field, have the **ArcGIS Field Maps** app open with GPS enabled and the current project open. Steps to geotag a new specimen:
+
+1. Stop with a willow bush and wait a few seconds to let the GPS location "catch up" if it's still moving.
+2. Click on the plus symbol and then `ADD POINT`.
+3. Select species, gender and flowering from the drop down menus.
+4. Within the app, select `TAKE PHOTO` and take 2–3 pictures zoomed into the flower and leaves, and one overview picture.
+
+### Flowering and Fruiting
+
+To log *flowering* (yes or no), note if the plant has any flowers (*catkins*) at all. If no flowers are present, set *flowering* to no. Note that this means no gender can be determined for the plant either.
+
+To log *fruiting* (yes or no), we need some expert help to clear up the process first.
+
+## Examples
+
+Here are some example photographs from the previous field trip.
+
+### Species Examples
+
+#### *S. lapponum*
+
+::: {layout-ncol=2}
+![*Salix lapponum*](media/willow_identification_images/p9pxnn9r.png)
+
+![*Salix lapponum*](media/willow_identification_images/5c8ug4pe.png)
+
+![*Salix lapponum*](media/willow_identification_images/39fciu71.png)
+
+![*Salix lapponum*](media/willow_identification_images/s7t63okm.png)
+:::
+
+#### *S. lanata*
+
+![*Salix lanata*. From: [luontoportti.com](https://luontoportti.com/no/t/1580/woolly-willow)](media/willow_identification_images/lanata_reference.png)
+
+::: {layout-ncol=2}
+![*Salix lanata*](media/willow_identification_images/eyntcn1b.png)
+
+![*Salix lanata*](media/willow_identification_images/k9rr7yo3.png)
+
+![*Salix lanata*](media/willow_identification_images/i1f9tnyc.png)
+
+![*Salix lanata*](media/willow_identification_images/Photo+1.jpg)
+:::
+
+### Gender Examples
+
+#### Female
+
+::: {layout-ncol=2}
+![Female](media/willow_identification_images/vlkq4sc2.png)
+
+![Female](media/willow_identification_images/gcrqci0f.png)
+
+![Female](media/willow_identification_images/ukf04puq.png)
+
+![Female](media/willow_identification_images/iwjgs4yo.png)
+:::
+
+#### Male
+
+::: {layout-ncol=2}
+![Male](media/willow_identification_images/musxjg3r.png)
+
+![Male](media/willow_identification_images/kcn15c2x.png)
+
+![Male](media/willow_identification_images/go9q28i0.png)
+
+![Male](media/willow_identification_images/dtf3q03b.png)
+:::

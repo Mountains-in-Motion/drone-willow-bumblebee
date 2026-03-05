@@ -10,9 +10,13 @@ website:
     logo: "media/drone-bumblebee-noleaf.png"
     left:
       - href: themes.qmd
-        text: Themes
+        text: Topics
       - href: gallery.qmd
         text: Finse field work gallery
+      - href: finse-willow-report.qmd
+        text: Drone Report
+      - href: willow-identification.qmd
+        text: Willow Guide
       - href: about.qmd
         text: About us
 

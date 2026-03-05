@@ -8,8 +8,9 @@ lightbox: true
 ::: {.grid}
 
 ::: {.g-col-7}
-## Drones and lidar 
-Sample Text Here. Section about lidar technology here, in relation to willow density mapping.
+## Flying drones and capturing lidar data 
+Section about drone technology here, in relation to willow density mapping.
+Here is [the report](finse-willow-report.qmd). 
 :::
 
 ::: {.g-col-5}
@@ -17,12 +18,12 @@ Sample Text Here. Section about lidar technology here, in relation to willow den
 :::
  
 ::: {.g-col-5}
-![The drone is parked.](media/drone.jpg)
+![Is this a *Salix Lapponum* or a *Salix Lanata*?](willow_identification_images/lapponum_example.png)
 :::
 
 ::: {.g-col-7}
-## Willow gender mapping
-Sample Text Here. Section about willow gender mapping.
+## Willow identification and mapping
+Manually identifying the species and gender of willow bushes in the field can be challenging. Here is a [field guide](willow-identification.qmd) to help distinguish between the two target species and genders.
 :::
 
 ::: {.g-col-7}

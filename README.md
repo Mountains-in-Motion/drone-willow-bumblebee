@@ -1,10 +1,12 @@
 # Bumblebee Guide
 Created: 08.04.2025
+
 ## Overview
 This guide explains how to push edits and deploy on the website Bumblebee
 
 ## Dependencies
 The dependencies listed here is only required to change the front page map.
+
 ### R packages
 The R software and packages are only required for the map example.
 

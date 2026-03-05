@@ -7,20 +7,24 @@ lightbox: false
 
 ::: {.grid}
 
-::: {.g-col-7}
-## The project
-Sample text here. This should explain the project in general terms. Part of the [PPF-Alpine](https://mountainsinmotion.w.uib.no/) research group. See a map of the field work area of Finse below!
+::: {.g-col-6}
+## The Drone-Willow-Bumblebee Project
+In the rugged mountains of Western Norway, two species of willow (*Salix lanata* and *Salix lapponum*) play a quiet but vital role the life of bumblebees. As climate change reshapes mountain landscapes, understanding how these willow shrubs are spreading or retreating is becoming increasingly important. This project combines drone photography, field surveys, and artificial intelligence in a pilot study to attempt to automatically detect and map willow bushes across the Finse area. 
+
+By training a deep learning model to recognize willows from high-resolution aerial images, we should be able to survey vast and remote areas far faster than would ever be possible on foot. Although, gathering training data still involves a lot of [manual identification](willow-identification.qmd) and hiking in the gorgeous Finse mountain region. This field work and research can open the door to large-scale monitoring of these ecologically important shrubs for years to come.
+The project is a cross disciplinary pilot study, in collaboration with the [PPF-Alpine](https://mountainsinmotion.w.uib.no/) group and XXXX. Last autumn, two field campaigns were successfully executed and. 
+
+Have a look at the [various topics](themes.qmd) we present here. See a map of the field work area of Finse below!
 :::
 
-::: {.g-col-5}
-![](./media/drone-bumblebee.png){width=300 .nolightbox}
+::: {.g-col-6}
+![Finse research station 'live' webcam, updated daily some time between 6:00 and 18:00.](https://www.finse.uio.no/news/webcam/dagens.jpg)
+
+![Finse research station 'live' webcam, updated daily some time between 6:00 and 18:00.](https://www.finse.uio.no/news/webcam/dagens.jpg)
 :::
 
 :::
 
-:::
-
-::: {.my-5}
 :::
 
 ::: {.my-5}
