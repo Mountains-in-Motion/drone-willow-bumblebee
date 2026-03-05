@@ -18,9 +18,9 @@ Have a look at the [various topics](themes.qmd) we present here. See a map of th
 :::
 
 ::: {.g-col-6}
-![Finse research station 'live' webcam, updated daily some time between 6:00 and 18:00.](https://www.finse.uio.no/news/webcam/dagens.jpg)
+![Field work group, July(?) 2025](media/team_drone.JPG)
 
-![Finse research station 'live' webcam, updated daily some time between 6:00 and 18:00.](https://www.finse.uio.no/news/webcam/dagens.jpg)
+![Finse research station 'live' webcam, updated daily some time between 6:00 and 18:00. Can you spot any willow bushes?](https://www.finse.uio.no/news/webcam/dagens.jpg)
 :::
 
 :::

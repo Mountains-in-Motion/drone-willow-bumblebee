@@ -27,13 +27,23 @@ Manually identifying the species and gender of willow bushes in the field can be
 :::
 
 ::: {.g-col-7}
-## Bumblebee Pollination
-Sample Text Here. Section about bumblebees and pollination. More images needed.
+## Picture gallery
+Check out all the [pictures](gallery.qmd) from the field. Shots from both bush- and birds-eyes view!
 :::
 
 ::: {.g-col-5}
-![A glacier model.](media/pism.png)
+![Go to the [gallery](gallery.qmd) for more.](media/team_station.JPG)
 :::
+
+::: {.g-col-5}
+![A part of the team.](media/team_station.JPG)
+:::
+
+::: {.g-col-7}
+## The team
+Here you can find [some information](about.qmd) about the team, and how to get in touch.
+:::
+
 
 :::
  
