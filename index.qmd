@@ -14,11 +14,11 @@ In the rugged mountains of Western Norway, two species of willow (*Salix lanata*
 By training a deep learning model to recognize willows from high-resolution aerial images, we should be able to survey vast and remote areas far faster than would ever be possible on foot. Although, gathering training data still involves a lot of [manual identification](willow-identification.qmd) and hiking in the gorgeous Finse mountain region. This field work and research can open the door to large-scale monitoring of these ecologically important shrubs for years to come.
 The project is a cross disciplinary pilot study, in collaboration with the [PPF-Alpine](https://mountainsinmotion.w.uib.no/) group and XXXX. Last autumn, two field campaigns were successfully executed and. 
 
-Have a look at the [various topics](themes.qmd) we present here. See a map of the field work area of Finse below!
+Have a look at the [various topics](themes.qmd) we present here. Also, check out the interactive map of the Finse field work area below!
 :::
 
 ::: {.g-col-6}
-![Field work group, July(?) 2025](media/team_drone.JPG)
+![Field work group, July 2025](media/team_drone.JPG)
 
 ![Finse research station 'live' [webcam](https://www.finse.uio.no/news/webcam/), updated near-daily some time between 6:00 and 18:00. Can you spot any willow bushes?](https://www.finse.uio.no/news/webcam/dagens.jpg)
 :::
@@ -37,6 +37,7 @@ Have a look at the [various topics](themes.qmd) we present here. See a map of th
 
 library(leaflet)
 library(sf)
+library(htmlwidgets)
 
 # Load the shapefiles
 zones <- st_read("media/field_work_shapefiles/squares.shp", quiet = TRUE) %>% 
@@ -51,7 +52,7 @@ fishnet <- st_read("media/field_work_shapefiles/fishnet_100m.shp", quiet = TRUE)
 
 
 
-leaflet() %>%
+leaflet(options = leafletOptions(scrollWheelZoom = FALSE)) %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles 
   addMarkers(lng=7.5244779006725375, lat=60.59364220037374, popup="Finse Alpine Resarch Station") %>%
 addPolygons(
@@ -71,5 +72,16 @@ addPolylines(
              data = fishnet,
              color = "gray",
              weight = 1
-)
+) %>%
+  onRender("
+    function(el, x) {
+      var map = this;
+      map.on('click', function() {
+        map.scrollWheelZoom.enable();
+      });
+      map.on('mouseout', function() {
+        map.scrollWheelZoom.disable();
+      });
+    }
+    ")
 ```
