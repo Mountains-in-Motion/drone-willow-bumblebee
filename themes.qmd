@@ -18,7 +18,7 @@ Here is [the report](finse-willow-report.qmd).
 :::
  
 ::: {.g-col-5}
-![Is this a *Salix Lapponum* or a *Salix Lanata*?](willow_identification_images/lapponum_example.png)
+![Is this a *Salix Lapponum* or a *Salix Lanata*?](media/willow_identification_images/lapponum_example.png)
 :::
 
 ::: {.g-col-7}
@@ -32,7 +32,7 @@ Check out all the [pictures](gallery.qmd) from the field. Shots from both bush- 
 :::
 
 ::: {.g-col-5}
-![Go to the [gallery](gallery.qmd) for more.](media/team_station.JPG)
+![Go to the [gallery](gallery.qmd) for more.](media/gallery/img16.jpg)
 :::
 
 ::: {.g-col-5}
