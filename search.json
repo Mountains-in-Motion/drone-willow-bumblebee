@@ -23,37 +23,51 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Drone-Willow-Bumblebee",
+    "title": "About Us",
     "section": "",
-    "text": "Benjamin is …\n\n\n\n\n\n\nThis drone is just here as a sample team member for now… Here will be a list of actual team members etc.\n\n\n\n\n\n\nThis glacier is just here as a sample team member for now… Here will be a list of actual team members etc.\n\n\n\nGet in touch at …\nThis can be either a form fill or contact email."
+    "text": "Ørjan Totland is the willow and bumblebee expert!\n\n\n\n\n\n\n\n\n\n\nBenjamin is the Drone expert!\n\n\n\n\n\n\n\n\n\n\nSuzette is an ecologist!\n\n\n\n\n\n\n\n\n\n\nA long list of contributers have helped make this project successfull. Including Augusto Lima, Raul Perez Prats, Julien Vadnais, Yiyao Chen, Daniel Thomas, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud.\n\n\n\n\n\n\n\n\n\n\nThis is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) sensor and a MicaScence Multispectral camera. The LiDAR sensor will be used to create high-resolution 3D point clouds permitting the volume and structure of willows.\n\n\n\n\n\n\n\n\n\n\nGet in touch with Suzette Flantua if you are interrested in learning more about the Drone-Willow-Bumblebee project: Send us an email"
+  },
+  {
+    "objectID": "about.html#ørjan-totland",
+    "href": "about.html#ørjan-totland",
+    "title": "About Us",
+    "section": "",
+    "text": "Ørjan Totland is the willow and bumblebee expert!"
   },
   {
     "objectID": "about.html#benjamin-aubrey-robson",
     "href": "about.html#benjamin-aubrey-robson",
-    "title": "Drone-Willow-Bumblebee",
+    "title": "About Us",
     "section": "",
-    "text": "Benjamin is …"
+    "text": "Benjamin is the Drone expert!"
+  },
+  {
+    "objectID": "about.html#suzette-flantua",
+    "href": "about.html#suzette-flantua",
+    "title": "About Us",
+    "section": "",
+    "text": "Suzette is an ecologist!"
+  },
+  {
+    "objectID": "about.html#many-others",
+    "href": "about.html#many-others",
+    "title": "About Us",
+    "section": "",
+    "text": "A long list of contributers have helped make this project successfull. Including Augusto Lima, Raul Perez Prats, Julien Vadnais, Yiyao Chen, Daniel Thomas, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud."
   },
   {
     "objectID": "about.html#the-drone",
     "href": "about.html#the-drone",
-    "title": "Drone-Willow-Bumblebee",
+    "title": "About Us",
     "section": "",
-    "text": "This drone is just here as a sample team member for now… Here will be a list of actual team members etc."
-  },
-  {
-    "objectID": "about.html#the-glacier",
-    "href": "about.html#the-glacier",
-    "title": "Drone-Willow-Bumblebee",
-    "section": "",
-    "text": "This glacier is just here as a sample team member for now… Here will be a list of actual team members etc."
+    "text": "This is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) sensor and a MicaScence Multispectral camera. The LiDAR sensor will be used to create high-resolution 3D point clouds permitting the volume and structure of willows."
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
-    "title": "Drone-Willow-Bumblebee",
+    "title": "About Us",
     "section": "",
-    "text": "Get in touch at …\nThis can be either a form fill or contact email."
+    "text": "Get in touch with Suzette Flantua if you are interrested in learning more about the Drone-Willow-Bumblebee project: Send us an email"
   },
   {
     "objectID": "willow-identification.html",
