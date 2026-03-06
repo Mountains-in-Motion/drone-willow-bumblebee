@@ -45,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dfa48a90d809c806c7ea2d5aecd9fc66.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-732e7ebf1b939e87c76a48181af9d4db.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-f96baf64eeee7d9c14740eaaf819a2e8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-732e7ebf1b939e87c76a48181af9d4db.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-edb42c0557c69e72bb3ecdb30263f809.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-10b0859df97e02bab5f0c86e643fdec4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-edb42c0557c69e72bb3ecdb30263f809.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -307,13 +307,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<style>
+.quarto-figure img, .lightbox img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+</style>
 <div class="column-screen-inset">
 <div class="quarto-layout-panel" data-layout-ncol="3">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./media/flight.png" class="lightbox" data-gallery="my-gallery" title="The drone mid flight!"><img src="./media/flight.png" class="img-fluid figure-img" alt="The drone mid flight!"></a></p>
+<p><a href="./media/gallery/flight.png" class="lightbox" data-gallery="my-gallery" title="The drone mid flight!"><img src="./media/gallery/flight.png" class="img-fluid figure-img" alt="The drone mid flight!"></a></p>
 <figcaption>The drone mid flight!</figcaption>
 </figure>
 </div>
@@ -321,54 +328,265 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./media/pism.png" class="lightbox" data-gallery="my-gallery" title="Jakobshavn Glacier modelled in PISM."><img src="./media/pism.png" class="img-fluid figure-img" alt="Jakobshavn Glacier modelled in PISM."></a></p>
-<figcaption>Jakobshavn Glacier modelled in PISM.</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./media/drone.jpg" class="lightbox" data-gallery="my-gallery" title="The drone parked."><img src="./media/drone.jpg" class="img-fluid figure-img" alt="The drone parked."></a></p>
+<p><a href="./media/gallery/drone.jpg" class="lightbox" data-gallery="my-gallery" title="The drone parked."><img src="./media/gallery/drone.jpg" class="img-fluid figure-img" alt="The drone parked."></a></p>
 <figcaption>The drone parked.</figcaption>
 </figure>
 </div>
 </div>
-</div>
-<div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./media/alt.png" class="lightbox" data-gallery="my-gallery" title="Alterach Glacier modelled in IGM."><img src="./media/alt.png" class="img-fluid figure-img" alt="Alterach Glacier modelled in IGM."></a></p>
-<figcaption>Alterach Glacier modelled in IGM.</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="media/benjamin.jpg" class="lightbox" data-gallery="my-gallery" title="Ben in front of Austdalsbeern with a drone."><img src="media/benjamin.jpg" class="img-fluid figure-img" alt="Ben in front of Austdalsbeern with a drone."></a></p>
+<p><a href="media/gallery/benjamin.jpg" class="lightbox" data-gallery="my-gallery" title="Ben in front of Austdalsbeern with a drone."><img src="media/gallery/benjamin.jpg" class="img-fluid figure-img" alt="Ben in front of Austdalsbeern with a drone."></a></p>
 <figcaption>Ben in front of Austdalsbeern with a drone.</figcaption>
 </figure>
 </div>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./media/alt.png" class="lightbox" data-gallery="my-gallery" title="Alterach Glacier modelled in IGM again."><img src="./media/alt.png" class="img-fluid figure-img" alt="Alterach Glacier modelled in IGM again."></a></p>
-<figcaption>Alterach Glacier modelled in IGM again.</figcaption>
-</figure>
 </div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/crash.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/crash.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/drone1.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/drone1.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/drone2.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/drone2.jpg" class="img-fluid"></a></p>
 </div>
 </div>
 <div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./media/benjamin.jpg" class="lightbox" data-gallery="my-gallery" title="Here he is again."><img src="./media/benjamin.jpg" class="img-fluid figure-img" alt="Here he is again."></a></p>
-<figcaption>Here he is again.</figcaption>
-</figure>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/drone3.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/drone3.jpg" class="img-fluid"></a></p>
 </div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/drone4.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/drone4.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/drone5.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/drone5.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/drone6.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/drone6.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img1.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img1.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img2.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img2.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img3.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img3.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img4.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img4.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img5.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img5.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img6.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img6.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img7.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img7.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img8.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img8.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img9.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img9.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img10.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img10.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img11.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img11.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img12.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img12.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img13.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img13.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img14.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img14.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img15.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img15.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img16.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img16.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img17.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img17.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img18.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img18.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img19.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img19.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img20.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img20.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img21.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img21.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img22.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img22.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img23.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img23.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img24.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img24.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img25.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img25.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img26.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img26.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img27.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img27.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img28.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img28.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img29.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img29.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img30.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img30.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img31.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img31.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img32.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img32.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img33.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img33.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img34.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img34.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img35.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img35.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img36.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img36.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img37.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img37.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img38.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img38.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img39.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img39.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img40.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img40.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img41.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img41.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img42.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img42.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img43.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img43.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img44.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img44.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img45.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img45.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img46.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img46.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img47.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img47.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img48.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img48.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img49.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img49.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img50.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img50.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/img51.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/img51.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/landscape1.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/landscape1.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/landscape2.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/landscape2.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/prep1.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/prep1.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/prep2.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/prep2.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/prep3.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/prep3.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/train1.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/train1.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/train2.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/train2.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/walk1.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/walk1.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="media/gallery/walk2.jpg" class="lightbox" data-gallery="my-gallery"><img src="media/gallery/walk2.jpg" class="img-fluid"></a></p>
 </div>
 </div>
 </div>
