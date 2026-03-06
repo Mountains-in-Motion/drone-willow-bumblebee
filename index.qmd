@@ -33,9 +33,43 @@ Have a look at the [various topics](themes.qmd) we present here. See a map of th
 ```{r}
 #| echo: false
 #| column: screen-inset-shaded
+#| message: false
 
 library(leaflet)
+library(sf)
+
+# Load the shapefiles
+zones <- st_read("media/field_work_shapefiles/squares.shp", quiet = TRUE) %>% 
+  st_transform(4326) %>%
+  st_zm()
+wires <- st_read("media/field_work_shapefiles/wire.shp", quiet = TRUE) %>%
+  st_transform(4326) %>%
+  st_zm()
+fishnet <- st_read("media/field_work_shapefiles/fishnet_100m.shp", quiet = TRUE) %>%
+  st_transform(4326) %>%
+  st_zm()
+
+
+
 leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles 
-  addMarkers(lng=7.5244779006725375, lat=60.59364220037374, popup="Finse Alpine Resarch Station")
+  addMarkers(lng=7.5244779006725375, lat=60.59364220037374, popup="Finse Alpine Resarch Station") %>%
+addPolygons(
+            data = zones,
+            fillColor = "pink",
+            fillOpacity = 0.4,
+            color = "blue",
+            weight = 2,
+            popup = ~paste("Field Zone:", Name, "<br>Area:", round(Shape_Area, 0), "m²")
+) %>%
+addPolylines(
+            data = wires,
+            color = "red",
+            weight = 2
+) %>%
+addPolylines(
+             data = fishnet,
+             color = "gray",
+             weight = 1
+)
 ```
