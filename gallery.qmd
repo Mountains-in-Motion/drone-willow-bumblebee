@@ -2,23 +2,157 @@
 lightbox: true
 ---
 
+<style>
+.quarto-figure img, .lightbox img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+</style>
+
 ::: {.column-screen-inset}
 
 ::: {layout-ncol=3}
 
-![The drone mid flight!](./media/flight.png){group="my-gallery"}
+![The drone mid flight!](./media/gallery/flight.png){group="my-gallery"}
 
-![Jakobshavn Glacier modelled in PISM.](./media/pism.png){group="my-gallery"}
+![The drone parked.](./media/gallery/drone.jpg){group="my-gallery"}
 
-![The drone parked.](./media/drone.jpg){group="my-gallery"}
+![Ben in front of Austdalsbeern with a drone.](media/gallery/benjamin.jpg){group="my-gallery"}
 
-![Alterach Glacier modelled in IGM.](./media/alt.png){group="my-gallery"}
+![](media/gallery/crash.jpg){group="my-gallery"}
 
-![Ben in front of Austdalsbeern with a drone.](media/benjamin.jpg){group="my-gallery"}
+![](media/gallery/drone1.jpg){group="my-gallery"}
 
-![Alterach Glacier modelled in IGM again.](./media/alt.png){group="my-gallery"}
+![](media/gallery/drone2.jpg){group="my-gallery"}
 
-![Here he is again.](./media/benjamin.jpg){group="my-gallery"}
+![](media/gallery/drone3.jpg){group="my-gallery"}
+
+![](media/gallery/drone4.jpg){group="my-gallery"}
+
+![](media/gallery/drone5.jpg){group="my-gallery"}
+
+![](media/gallery/drone6.jpg){group="my-gallery"}
+
+![](media/gallery/img1.jpg){group="my-gallery"}
+
+![](media/gallery/img2.jpg){group="my-gallery"}
+
+![](media/gallery/img3.jpg){group="my-gallery"}
+
+![](media/gallery/img4.jpg){group="my-gallery"}
+
+![](media/gallery/img5.jpg){group="my-gallery"}
+
+![](media/gallery/img6.jpg){group="my-gallery"}
+
+![](media/gallery/img7.jpg){group="my-gallery"}
+
+![](media/gallery/img8.jpg){group="my-gallery"}
+
+![](media/gallery/img9.jpg){group="my-gallery"}
+
+![](media/gallery/img10.jpg){group="my-gallery"}
+
+![](media/gallery/img11.jpg){group="my-gallery"}
+
+![](media/gallery/img12.jpg){group="my-gallery"}
+
+![](media/gallery/img13.jpg){group="my-gallery"}
+
+![](media/gallery/img14.jpg){group="my-gallery"}
+
+![](media/gallery/img15.jpg){group="my-gallery"}
+
+![](media/gallery/img16.jpg){group="my-gallery"}
+
+![](media/gallery/img17.jpg){group="my-gallery"}
+
+![](media/gallery/img18.jpg){group="my-gallery"}
+
+![](media/gallery/img19.jpg){group="my-gallery"}
+
+![](media/gallery/img20.jpg){group="my-gallery"}
+
+![](media/gallery/img21.jpg){group="my-gallery"}
+
+![](media/gallery/img22.jpg){group="my-gallery"}
+
+![](media/gallery/img23.jpg){group="my-gallery"}
+
+![](media/gallery/img24.jpg){group="my-gallery"}
+
+![](media/gallery/img25.jpg){group="my-gallery"}
+
+![](media/gallery/img26.jpg){group="my-gallery"}
+
+![](media/gallery/img27.jpg){group="my-gallery"}
+
+![](media/gallery/img28.jpg){group="my-gallery"}
+
+![](media/gallery/img29.jpg){group="my-gallery"}
+
+![](media/gallery/img30.jpg){group="my-gallery"}
+
+![](media/gallery/img31.jpg){group="my-gallery"}
+
+![](media/gallery/img32.jpg){group="my-gallery"}
+
+![](media/gallery/img33.jpg){group="my-gallery"}
+
+![](media/gallery/img34.jpg){group="my-gallery"}
+
+![](media/gallery/img35.jpg){group="my-gallery"}
+
+![](media/gallery/img36.jpg){group="my-gallery"}
+
+![](media/gallery/img37.jpg){group="my-gallery"}
+
+![](media/gallery/img38.jpg){group="my-gallery"}
+
+![](media/gallery/img39.jpg){group="my-gallery"}
+
+![](media/gallery/img40.jpg){group="my-gallery"}
+
+![](media/gallery/img41.jpg){group="my-gallery"}
+
+![](media/gallery/img42.jpg){group="my-gallery"}
+
+![](media/gallery/img43.jpg){group="my-gallery"}
+
+![](media/gallery/img44.jpg){group="my-gallery"}
+
+![](media/gallery/img45.jpg){group="my-gallery"}
+
+![](media/gallery/img46.jpg){group="my-gallery"}
+
+![](media/gallery/img47.jpg){group="my-gallery"}
+
+![](media/gallery/img48.jpg){group="my-gallery"}
+
+![](media/gallery/img49.jpg){group="my-gallery"}
+
+![](media/gallery/img50.jpg){group="my-gallery"}
+
+![](media/gallery/img51.jpg){group="my-gallery"}
+
+![](media/gallery/landscape1.jpg){group="my-gallery"}
+
+![](media/gallery/landscape2.jpg){group="my-gallery"}
+
+![](media/gallery/prep1.jpg){group="my-gallery"}
+
+![](media/gallery/prep2.jpg){group="my-gallery"}
+
+![](media/gallery/prep3.jpg){group="my-gallery"}
+
+![](media/gallery/train1.jpg){group="my-gallery"}
+
+![](media/gallery/train2.jpg){group="my-gallery"}
+
+![](media/gallery/walk1.jpg){group="my-gallery"}
+
+![](media/gallery/walk2.jpg){group="my-gallery"}
 
 :::
 
