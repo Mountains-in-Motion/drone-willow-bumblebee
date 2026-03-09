@@ -7,6 +7,7 @@ lightbox: true
   width: 100%;
   height: 200px;
   object-fit: cover;
+  object-position: center 30%;
 }
 </style>
 
@@ -14,9 +15,9 @@ lightbox: true
 
 ::: {layout-ncol=3}
 
-![](./media/gallery/flight.png){group="my-gallery"}
+![](media/gallery/img3.jpg){group="my-gallery"}
 
-![](./media/gallery/drone.jpg){group="my-gallery"}
+![](./media/gallery/flight.png){group="my-gallery"}
 
 ![](media/gallery/benjamin.jpg){group="my-gallery"}
 
@@ -26,23 +27,32 @@ lightbox: true
 
 ![](media/gallery/drone2.jpg){group="my-gallery"}
 
+![](media/drone_report_images/fig8_zone1_predictions.png){group="my-gallery"}
+
 ![](media/gallery/drone3.jpg){group="my-gallery"}
 
 ![](media/gallery/drone4.jpg){group="my-gallery"}
 
 ![](media/gallery/drone5.jpg){group="my-gallery"}
 
+![](media/drone_report_images/fig9_zone2_predictions.png){group="my-gallery"}
+
 ![](media/gallery/drone6.jpg){group="my-gallery"}
+
+![](./media/gallery/drone.jpg){group="my-gallery"}
 
 ![](media/gallery/img1.jpg){group="my-gallery"}
 
 ![](media/gallery/img2.jpg){group="my-gallery"}
 
-![](media/gallery/img3.jpg){group="my-gallery"}
 
 ![](media/gallery/img4.jpg){group="my-gallery"}
 
+![](media/drone_report_images/fig6_test_area3.png){group="my-gallery"}
+
 ![](media/gallery/img5.jpg){group="my-gallery"}
+
+![](media/drone_report_images/fig4_test_area.png){group="my-gallery"}
 
 ![](media/gallery/img6.jpg){group="my-gallery"}
 
