@@ -14,7 +14,7 @@ format:
     colorlinks: true
     geometry: margin=2.5cm
     abstract: | 
-      This is a short summary of the initial report "Finse Willow experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone". This summary presents some eperimental methods for automated mapping of willow bushes in the Western Norway mountain plateau. This page reflects the drone automation and mapping side of the project. Many people have contributed to the whole of the project, including Ørjan Totland, Suzette Flantua, Augusto Lima, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud.
+      This is a short summary of the initial report "Finse Willow Experiment: Automatic Mapping of Willow Bushes with the Wingtra Drone". This summary presents some eperimental methods for automated mapping of willow bushes in the Western Norway mountain plateau. This page reflects the drone automation and mapping side of the project. Many people have contributed to the whole of the project, including Ørjan Totland, Suzette Flantua, Augusto Lima, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud.
 ---
 
 ## Overview

@@ -13,7 +13,7 @@ In the rugged mountains of Western Norway, two species of willow (*Salix lanata*
 
 By training a deep learning model to recognize willows from high-resolution aerial images, we should be able to survey vast and remote areas far faster than would ever be possible on foot. Although, gathering training data still involves a lot of [manual identification](willow-identification.qmd) and hiking in the gorgeous Finse mountain region. This research can open the door to large-scale monitoring of these ecologically important shrubs for years to come.
 
-The project is a cross disciplinary pilot study, in collaboration with the [PPF-Alpine](https://mountainsinmotion.w.uib.no/) group and XXXX. Last spring and autumn, two initial field campaigns took place. See this brief [overview of some results](finse-willow-report.qmd) to find out more. 
+The project is a cross disciplinary pilot study, in collaboration with the [PPF-Alpine](https://mountainsinmotion.w.uib.no/) group and XXXXXXXXXXXXXXXXXXX. Last spring and autumn, two initial field campaigns took place. See this brief [overview of some results](finse-willow-report.qmd) to find out more. 
 
 To get oriented, have a look at the [various topics](themes.qmd) we present here. Also, check out the interactive map of the Finse field work area below!
 :::

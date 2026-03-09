@@ -14,11 +14,11 @@ lightbox: true
 
 ::: {layout-ncol=3}
 
-![The drone mid flight!](./media/gallery/flight.png){group="my-gallery"}
+![](./media/gallery/flight.png){group="my-gallery"}
 
-![The drone parked.](./media/gallery/drone.jpg){group="my-gallery"}
+![](./media/gallery/drone.jpg){group="my-gallery"}
 
-![Ben in front of Austdalsbeern with a drone.](media/gallery/benjamin.jpg){group="my-gallery"}
+![](media/gallery/benjamin.jpg){group="my-gallery"}
 
 ![](media/gallery/crash.jpg){group="my-gallery"}
 

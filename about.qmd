@@ -2,13 +2,26 @@
 title: "About Us"
 lightbox: false
 ---
+
+```{=html}
+<style>
+.team-grid img:not(.no-crop) {
+  width: 160px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center top;
+}
+</style>
+```
+
 :::{.column-page}
+:::{.team-grid}
 ::: {.grid}
 
 ::: {.g-col-6}
 ::: {.grid}
 ::: {.g-col-4}
-![](https://i1.rgstatic.net/ii/profile.image/272500265320473-1441980534821_Q128/Orjan-Totland.jpg){width=200}
+![](https://i1.rgstatic.net/ii/profile.image/272500265320473-1441980534821_Q128/Orjan-Totland.jpg)
 :::
 ::: {.g-col-8}
 ## Ørjan Totland
@@ -20,7 +33,7 @@ lightbox: false
 ::: {.g-col-6}
 ::: {.grid}
 ::: {.g-col-4}
-![](media/benjamin.jpg){width=200}
+![](media/benjamin.jpg)
 :::
 ::: {.g-col-8}
 ## Benjamin Aubrey Robson
@@ -32,7 +45,7 @@ Benjamin is the Drone expert!
 ::: {.g-col-6}
 ::: {.grid}
 ::: {.g-col-4}
-![](media/team/suzette.jpg){width=200}
+![](media/team/suzette.jpg)
 :::
 ::: {.g-col-8}
 ## Suzette Flantua
@@ -44,7 +57,7 @@ Suzette is an ecologist!
 ::: {.g-col-6}
 ::: {.grid}
 ::: {.g-col-4}
-![](media/team_drone.JPG){width=200}
+![](media/team_drone.JPG)
 :::
 ::: {.g-col-8}
 ## Many others!
@@ -56,11 +69,11 @@ A long list of contributers have helped make this project successfull. Including
 ::: {.g-col-6}
 ::: {.grid}
 ::: {.g-col-4}
-![](media/flight.png){width=200}
+![](media/flight.png)
 :::
 ::: {.g-col-8}
 ## The Drone
-This is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) sensor and a MicaScence Multispectral camera. The LiDAR sensor will be used to create high-resolution 3D point clouds permitting the volume and structure of willows.
+This is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) sensor and a MicaScence Multispectral camera.
 :::
 :::
 :::
@@ -68,7 +81,7 @@ This is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) s
 ::: {.g-col-6}
 ::: {.grid}
 ::: {.g-col-4}
-![](media/drone-bumblebee.png){width=200}
+![](media/drone-bumblebee.png){.no-crop}
 :::
 ::: {.g-col-8}
 ## Contact
@@ -78,5 +91,6 @@ Get in touch with Suzette Flantua if you are interrested in learning more about 
 :::
 :::
 
+:::
 :::
 :::
