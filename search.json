@@ -39,14 +39,14 @@
     "href": "themes.html",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "Section about drone technology here, in relation to willow density mapping. Here is the report.\n\n\n\n\n\nThe drone is flying.\n\n\n\n\n\n\n\nIs this a Salix Lapponum or a Salix Lanata?\n\n\n\n\n\nManually identifying the species and gender of willow bushes in the field can be challenging. Here is a field guide to help distinguish between the two target species and genders.\n\n\n\nCheck out all the pictures from the field. Shots from both bush- and birds-eyes view!\n\n\n\n\n\nGo to the gallery for more.\n\n\n\n\n\n\n\nA part of the team.\n\n\n\n\n\nHere you can find some information about the team, and how to get in touch."
+    "text": "The Wingtra drone is used to capture imaging data and then a machine learning method is used to predict willow location. Here is a report summary.\n\n\n\n\n\n\n\n\nIs this a Salix Lapponum or a Salix Lanata?\n\n\n\n\n\nManually identifying the species and gender of willow bushes in the field can be challenging. Here is a field guide to help distinguish between the two target species and genders.\n\n\n\nCheck out all the pictures from the field. Shots from both bush- and birds-eyes view!\n\n\n\n\n\n\n\n\n\nHere you can find some information about the team, and how to get in touch."
   },
   {
     "objectID": "themes.html#flying-drones-and-capturing-lidar-data",
     "href": "themes.html#flying-drones-and-capturing-lidar-data",
     "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "Section about drone technology here, in relation to willow density mapping. Here is the report."
+    "text": "The Wingtra drone is used to capture imaging data and then a machine learning method is used to predict willow location. Here is a report summary."
   },
   {
     "objectID": "themes.html#willow-identification-and-mapping",
@@ -88,14 +88,14 @@
     "href": "finse-willow-report.html",
     "title": "Summary: Automatic Mapping of Willow Bushes with the Wingtra Drone",
     "section": "",
-    "text": "Two species of willows populate the surroundings of Finse, Norway: Salix lanata and Salix glauca. They are thought to be important to pollinators, and it is unclear how their spatial extent has changed in the last decades due to climate change.\nThis report presents experimental results of an automatic method to map willow bushes in the Norwegian mountain plateau. The method is based on a deep learning model, high-resolution drone imagery, and field sampling. Results show that the resulting model can effectively delineate the willows in unseen images, thus demonstrating it could be used operationally on a larger scale.\n\n\n\nThe Finse Alpine Research Center, with willow bushes in the centre foreground."
+    "text": "Two species of willows populate the surroundings of Finse, Norway: Salix lanata and Salix glauca. They are thought to be important to pollinators, and it is unclear how their spatial extent has changed in the last decades due to climate change.\nThis report presents experimental method to map willow bushes in the Norwegian mountain plateau. The method is based on a deep learning model, high-resolution drone imagery, and field sampling. Preliminary results show that the machine learning model can effectively delineate the willows in unseen images, thus demonstrating it could be used operationally on a larger scale.\n\n\n\nThe Finse Alpine Research Center, with willow bushes in the centre foreground."
   },
   {
     "objectID": "finse-willow-report.html#overview",
     "href": "finse-willow-report.html#overview",
     "title": "Summary: Automatic Mapping of Willow Bushes with the Wingtra Drone",
     "section": "",
-    "text": "Two species of willows populate the surroundings of Finse, Norway: Salix lanata and Salix glauca. They are thought to be important to pollinators, and it is unclear how their spatial extent has changed in the last decades due to climate change.\nThis report presents experimental results of an automatic method to map willow bushes in the Norwegian mountain plateau. The method is based on a deep learning model, high-resolution drone imagery, and field sampling. Results show that the resulting model can effectively delineate the willows in unseen images, thus demonstrating it could be used operationally on a larger scale.\n\n\n\nThe Finse Alpine Research Center, with willow bushes in the centre foreground."
+    "text": "Two species of willows populate the surroundings of Finse, Norway: Salix lanata and Salix glauca. They are thought to be important to pollinators, and it is unclear how their spatial extent has changed in the last decades due to climate change.\nThis report presents experimental method to map willow bushes in the Norwegian mountain plateau. The method is based on a deep learning model, high-resolution drone imagery, and field sampling. Preliminary results show that the machine learning model can effectively delineate the willows in unseen images, thus demonstrating it could be used operationally on a larger scale.\n\n\n\nThe Finse Alpine Research Center, with willow bushes in the centre foreground."
   },
   {
     "objectID": "finse-willow-report.html#study-area",
@@ -105,72 +105,65 @@
     "text": "2 Study Area\nThe study area is made of five zones, chosen in relation to the M.Sc projects of Savanna and Ingrid. We conducted a series of field transects on 24–25 July 2025, using an ArcGIS FieldMaps project to geolocate willow bushes. Out of the five zones, three were covered by our drone survey, covering about 2 000 000 m².\n\n\n\nMap of the study area around Finse. Lime green: The three zones covered by drone in this report. Basemap: Satellite imagery. Red stars: Willow bushes reported during field transects."
   },
   {
-    "objectID": "finse-willow-report.html#drone-data",
-    "href": "finse-willow-report.html#drone-data",
-    "title": "Summary: Automatic Mapping of Willow Bushes with the Wingtra Drone",
-    "section": "3 Drone Data",
-    "text": "3 Drone Data\nWe used a Wingtra drone equipped with a MicaSense RE-P camera, which captures images in five spectral bands: blue, green, red, red edge, and near-infrared (NIR). The area flown over is mostly hilly and open, with aerial power lines as the only notable obstacle. Images were collected with a spatial resolution of 4 cm per pixel, and were preprocessed to reduce the effect of shadows and variations in contrast. Capturing fine spatial and spectral details is key for this automatic method to work; otherwise, the results would degrade significantly.\n\n\n\nLandscape around Finse imaged by the Wingtra drone. Elevated power lines can be seen here."
-  },
-  {
     "objectID": "finse-willow-report.html#model-results-on-the-test-areas",
     "href": "finse-willow-report.html#model-results-on-the-test-areas",
     "title": "Summary: Automatic Mapping of Willow Bushes with the Wingtra Drone",
-    "section": "4 Model Results on the Test Areas",
-    "text": "4 Model Results on the Test Areas\nWe present visual results on three test areas, using the model which offered the best and most stable performance during validation. It is a DeepLabV3 model, using a ResNet-50 backbone as feature encoder, and using tiles of 786×786 pixels (Table 2). Below (Fig. 4–6), we show the model’s performance when predicting on unseen images. The ground truth images show willows as mapped manually, which was done with help of the field mapping.\n\n\n\n\n\n\nFigure 4: Test area 1\n\n\n\n\n\n\n\n\n\n\n\nFigure 5: Test area 2\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: Test area 3"
+    "section": "3 Model Results on the Test Areas",
+    "text": "3 Model Results on the Test Areas\nHere are visual representation of the results on two of the test areas, using the model which offered the best and most stable performance during validation. It is a DeepLabV3 model, using a ResNet-50 backbone as feature encoder, and using tiles of 786×786 pixels. Below (Fig. 4–5), we show the model’s performance when predicting on unseen images. The ground truth images show willows as mapped manually, which was done with help of the field mapping.\n\n\n\n\n\n\nFigure 4: Test area 1\n\n\n\n\n\n\n\n\n\n\n\nFigure 5: Test area 3"
   },
   {
-    "objectID": "finse-willow-report.html#appendix",
-    "href": "finse-willow-report.html#appendix",
+    "objectID": "finse-willow-report.html#running-the-model-on-the-whole-finse-drone-survey",
+    "href": "finse-willow-report.html#running-the-model-on-the-whole-finse-drone-survey",
     "title": "Summary: Automatic Mapping of Willow Bushes with the Wingtra Drone",
-    "section": "5 Appendix",
-    "text": "5 Appendix\n\n5.1 Details About Data Preparation\nAnnotating the drone imagery for willows is time-consuming. To prepare a training dataset, we first delimited smaller zones for the training, validation, and testing phase. It is important that the testing area does not overlap with the areas in which images were seen during training. Identifying the willow bushes in the drone images is possible, particularly if the images were taken during the flowering stage of the willows. However, field sampling and geolocation of willow bushes made interpreting the images and creating the training data much easier.\n\n\n\nAnnotated areas, split for training/validation/testing.\n\n\n\n\n5.2 Details About the Deep Learning Model Workflow\nWe split the drone images in smaller tiles (512 and 786 pixels), using a tiling overlap of half the tile size, and keeping the optical (RGB) bands only. The deep learning models were implemented in ArcGIS Pro (DeepLabV3), and PyTorch (U-Net and Segformer). The backbones are initialized with weights from ImageNet pretraining. We used the default image augmentations implemented in ArcGIS: random rotations, flips, pixel shifts and croppings. Padding and overlap is used during test-time predictions. Models were trained by monitoring the default cross-entropy loss function on a 10% validation split.\nBelow, we show our comparison results for different models evaluated on the validation split. Models are compared using a tile size of 512 (Table 1) and 768 pixels (Table 2).\n\n\n\nTable 1: 512×512 tiles: Model comparison (Dice score) on the validation split.\n\n\n\n\n\nBackbone\nDeepLabV3\nU-Net\nSegformer\n\n\n\n\nResNet-50\n0.797\n0.797\n/\n\n\nResNet-101\n0.803\n0.801\n/\n\n\nDenseNet-121\n0.734\n0.791\n/\n\n\nEfficientNet-b7\n/\n0.798\n/\n\n\nMiT-b4\n/\n/\n0.796\n\n\nMiT-b5\n/\n/\n0.793\n\n\n\n\n\n\n\n\n\nTable 2: 768×768 tiles: Model comparison (Dice score) on the validation split.\n\n\n\n\n\nBackbone\nDeepLabV3\nU-Net\nSegformer\n\n\n\n\nResNet-50\n0.818\n0.811\n/\n\n\nResNet-101\n0.778\n0.815\n/\n\n\nDenseNet-121\n0.732\n0.771\n/\n\n\nEfficientNet-b7\n/\n0.782\n/\n\n\nMiT-b4\n/\n/\n0.784\n\n\nMiT-b5\n/\n/\n0.789\n\n\n\n\n\n\n\n\n5.3 Running the Model on the Whole Finse Drone Survey\nHere are preliminary results showing what we obtain from running the model on the whole study area — for illustrative purposes only!\n\n\n\nFigure 8: Model predictions: Drone survey zone 1\n\n\n\n\n\nFigure 9: Model predictions: Drone survey zone 2\n\n\n\n\n\nFigure 10: Model predictions: Drone survey zone 3\n\n\n\n\n5.4 Suggestions for Further Work\nHere are some suggestions worth looking into for improving future deep learning models. During training, backbone weights were kept frozen due to working with a relatively small training dataset; however, unfreezing the backbone may lead to better model performance, particularly with a larger training dataset. In this study, we also only worked with RGB bands, due to frozen backbones being optimized on such optical images. Further work could explore if adding the near-infrared band or additional information such as a lidar-derived DEM could improve model performance. There is probably room for improvement through implementing more advanced deep learning methods (e.g. ensemble models, transformer-style encoders). Nonetheless, our results have shown that a basic convolutional neural network workflow works very well and shows great potential for this method to be implemented operationally.\nLastly, we could train a model using only the panchromatic band of the MicaSense camera. This would allow for running the model on historical images captured in the panchromatic band, such as aerial surveys since the 1960s, which have been made openly available on norgeibilder.no (Fig. 11).\n\n\n\nFigure 11: Aerial survey of the study area (upper two zones in Fig. 7), 13 August 1972. Panchromatic image at 20-cm pixel resolution. Source: Norge i bilder."
+    "section": "4 Running the Model on the Whole Finse Drone Survey",
+    "text": "4 Running the Model on the Whole Finse Drone Survey\nHere are preliminary results showing what we obtain from running the model on the whole study area — for illustrative purposes only!\n\n\n\nFigure 6: Model predictions: Drone survey zone 3"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Us",
+    "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "Ørjan Totland is the willow and bumblebee expert!\n\n\n\n\n\n\n\n\n\n\nBenjamin is the Drone expert!\n\n\n\n\n\n\n\n\n\n\nSuzette is an ecologist!\n\n\n\n\n\n\n\n\n\n\nA long list of contributers have helped make this project successfull. Including Augusto Lima, Raul Perez Prats, Julien Vadnais, Yiyao Chen, Daniel Thomas, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud.\n\n\n\n\n\n\n\n\n\n\nThis is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) sensor and a MicaScence Multispectral camera. The LiDAR sensor will be used to create high-resolution 3D point clouds permitting the volume and structure of willows.\n\n\n\n\n\n\n\n\n\n\nGet in touch with Suzette Flantua if you are interrested in learning more about the Drone-Willow-Bumblebee project: Send us an email"
+    "text": "Ørjan Totland is the willow and bumblebee expert!\n\n\n\n\n\n\n\n\n\n\nBenjamin is the Drone expert!\n\n\n\n\n\n\n\n\n\n\nSuzette is an ecologist!\n\n\n\n\n\n\n\n\n\n\nA long list of contributers have helped make this project successfull. Including Augusto Lima, Raul Perez Prats, Julien Vadnais, Yiyao Chen, Daniel Thomas, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud.\n\n\n\n\n\n\n\n\n\n\nThis is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) sensor and a MicaScence Multispectral camera.\n\n\n\n\n\n\n\n\n\n\nGet in touch with Suzette Flantua if you are interrested in learning more about the Drone-Willow-Bumblebee project: Send us an email"
   },
   {
     "objectID": "about.html#ørjan-totland",
     "href": "about.html#ørjan-totland",
-    "title": "About Us",
+    "title": "Drone-Willow-Bumblebee",
     "section": "",
     "text": "Ørjan Totland is the willow and bumblebee expert!"
   },
   {
     "objectID": "about.html#benjamin-aubrey-robson",
     "href": "about.html#benjamin-aubrey-robson",
-    "title": "About Us",
+    "title": "Drone-Willow-Bumblebee",
     "section": "",
     "text": "Benjamin is the Drone expert!"
   },
   {
     "objectID": "about.html#suzette-flantua",
     "href": "about.html#suzette-flantua",
-    "title": "About Us",
+    "title": "Drone-Willow-Bumblebee",
     "section": "",
     "text": "Suzette is an ecologist!"
   },
   {
     "objectID": "about.html#many-others",
     "href": "about.html#many-others",
-    "title": "About Us",
+    "title": "Drone-Willow-Bumblebee",
     "section": "",
     "text": "A long list of contributers have helped make this project successfull. Including Augusto Lima, Raul Perez Prats, Julien Vadnais, Yiyao Chen, Daniel Thomas, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud."
   },
   {
     "objectID": "about.html#the-drone",
     "href": "about.html#the-drone",
-    "title": "About Us",
+    "title": "Drone-Willow-Bumblebee",
     "section": "",
-    "text": "This is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) sensor and a MicaScence Multispectral camera. The LiDAR sensor will be used to create high-resolution 3D point clouds permitting the volume and structure of willows."
+    "text": "This is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) sensor and a MicaScence Multispectral camera."
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
-    "title": "About Us",
+    "title": "Drone-Willow-Bumblebee",
     "section": "",
     "text": "Get in touch with Suzette Flantua if you are interrested in learning more about the Drone-Willow-Bumblebee project: Send us an email"
   }
