@@ -9,12 +9,12 @@ lightbox: true
 
 ::: {.g-col-7}
 ## Flying drones and capturing lidar data 
-Section about drone technology here, in relation to willow density mapping.
-Here is [the report](finse-willow-report.qmd). 
+The Wingtra drone is used to capture imaging data and then a machine learning method is used to predict willow location.
+Here is [a report summary](finse-willow-report.qmd). 
 :::
 
 ::: {.g-col-5}
-![The drone is flying.](media/flight.png)
+![](media/flight.png)
 :::
  
 ::: {.g-col-5}
@@ -32,11 +32,11 @@ Check out all the [pictures](gallery.qmd) from the field. Shots from both bush- 
 :::
 
 ::: {.g-col-5}
-![Go to the [gallery](gallery.qmd) for more.](media/gallery/img16.jpg)
+![](media/gallery/img16.jpg)
 :::
 
 ::: {.g-col-5}
-![A part of the team.](media/team_station.JPG)
+![](media/team_station.JPG)
 :::
 
 ::: {.g-col-7}
