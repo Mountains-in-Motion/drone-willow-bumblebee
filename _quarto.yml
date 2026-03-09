@@ -30,6 +30,10 @@ website:
           <img class="logo-dark" src="./media/uib_white.png" alt="UiB Logo Dark">
           <img class="logo-light" src="./media/uib_black.png" alt="UiB Logo Light">
         </a>
+        <a href="index.qmd">
+          <img class="logo-dark" src="./media/drone-bumblebee.png" alt="Drone Willow Bumblebee">
+          <img class="logo-light" src="./media/drone-bumblebee.png" alt="Drone Willow Bumblebee">
+        </a>
         <a href="https://mohnfoundation.no/en/">
           <img class="logo-dark" src="media/trond.jpg" alt="Mohn Logo"> 
           <img class="logo-light" src="media/trond.jpg" alt="Mohn Logo">
