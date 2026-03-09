@@ -70,6 +70,8 @@ lightbox: true
 
 ![](media/gallery/img13.jpg){group="my-gallery"}
 
+![](media/drone_report_images/fig7_annotated_areas.png){group="my-gallery"}
+
 ![](media/gallery/img14.jpg){group="my-gallery"}
 
 ![](media/gallery/img15.jpg){group="my-gallery"}
