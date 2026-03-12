@@ -56,4 +56,5 @@ format:
         - dark-theme-style.scss
     toc: true
 
-
+execute:
+  freeze: auto
