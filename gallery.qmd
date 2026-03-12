@@ -106,21 +106,11 @@ lightbox: true
 
 ![](media/gallery/img30.jpg){group="my-gallery"}
 
-![](media/gallery/img31.jpg){group="my-gallery"}
-
-![](media/gallery/img32.jpg){group="my-gallery"}
-
 ![](media/gallery/img33.jpg){group="my-gallery"}
 
 ![](media/gallery/img34.jpg){group="my-gallery"}
 
 ![](media/gallery/img35.jpg){group="my-gallery"}
-
-![](media/gallery/img36.jpg){group="my-gallery"}
-
-![](media/gallery/img37.jpg){group="my-gallery"}
-
-![](media/gallery/img38.jpg){group="my-gallery"}
 
 ![](media/gallery/img39.jpg){group="my-gallery"}
 
@@ -145,8 +135,6 @@ lightbox: true
 ![](media/gallery/img49.jpg){group="my-gallery"}
 
 ![](media/gallery/img50.jpg){group="my-gallery"}
-
-![](media/gallery/img51.jpg){group="my-gallery"}
 
 ![](media/gallery/landscape1.jpg){group="my-gallery"}
 
