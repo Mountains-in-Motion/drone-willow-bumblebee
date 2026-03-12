@@ -1,0 +1,100 @@
+```{r}
+#| echo: false
+#| message: false
+#| column: screen-inset
+library(leaflet)
+library(sf)
+library(htmlwidgets)
+
+# Load the shapefiles
+  zones <- st_read("media/field_work_shapefiles/squares.shp", quiet = TRUE) %>% 
+    st_transform(4326) %>%
+    st_zm()
+  wires <- st_read("media/field_work_shapefiles/wire.shp", quiet = TRUE) %>%
+    st_transform(4326) %>%
+    st_zm()
+  fishnet <- st_read("media/field_work_shapefiles/fishnet_100m.shp", quiet = TRUE) %>%
+    st_transform(4326) %>%
+    st_zm()
+  willows <- st_read("media/field_work_shapefiles/willow_tags.shp", quiet = TRUE) %>%
+    st_transform(4326) %>%
+    st_zm()
+
+  greenLeafIcon <- makeIcon(
+    iconUrl = "https://leafletjs.com/examples/custom-icons/leaf-green.png",
+    iconWidth = 38, iconHeight = 95,
+    iconAnchorX = 22, iconAnchorY = 94
+  )
+
+  leaflet(options = leafletOptions(scrollWheelZoom = FALSE)) %>%
+    addTiles() %>%
+    addMarkers(lng=7.5244779006725375, lat=60.59364220037374, popup="Finse Alpine Research Station") %>%
+    addPolygons(
+      data = zones,
+      fillColor = "pink",
+      fillOpacity = 0.4,
+      color = "blue",
+      weight = 2,
+      popup = ~paste("Field Zone:", Name, "<br>Area:", round(Shape_Area, 0), "m²")
+    ) %>%
+    addPolylines(
+      data = wires,
+      color = "red",
+      weight = 2
+    ) %>%
+    addPolylines(
+      data = fishnet,
+      color = "gray",
+      weight = 1
+    ) %>%
+    addMarkers(
+      data = willows,
+      icon = greenLeafIcon,
+      options = markerOptions(title = "willow")  # tag them for JS targeting
+    ) %>%
+    onRender("
+      function(el, x) {
+        var map = this;
+        
+        // Collect only the willow leaf markers (skip the research station marker)
+        // We identify them by having a custom icon (not the default blue pin)
+        var willowMarkers = [];
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.Marker && layer.options.title === 'willow') {
+            willowMarkers.push(layer);
+          }
+        });
+
+        function updateMarkers() {
+          var zoom = map.getZoom();
+
+          // Define which markers to show at each zoom threshold
+          // every Nth marker shown: zoom < 14 = every 10th, 14-15 = every 5th, 16-17 = every 2nd, 18+ = all
+          var step;
+          if (zoom >= 18) {
+            step = 1;       // all markers
+          } else if (zoom >= 16) {
+            step = 3;       // every 2nd
+          } else if (zoom >= 14) {
+            step = 7;       // every 5th
+          } else {
+            step = 20;      // every 10th (or hide all if you prefer)
+          }
+
+          willowMarkers.forEach(function(marker, index) {
+            var el = marker.getElement();
+            if (el) {
+              el.style.display = (index % step === 0) ? '' : 'none';
+            }
+          });
+        }
+
+        map.on('zoomend', updateMarkers);
+        updateMarkers(); // apply on initial load
+
+        // Scroll wheel zoom behaviour
+        map.on('click', function() { map.scrollWheelZoom.enable(); });
+        map.on('mouseout', function() { map.scrollWheelZoom.disable(); });
+      }
+    ")
+```
