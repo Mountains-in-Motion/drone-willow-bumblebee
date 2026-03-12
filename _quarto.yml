@@ -38,10 +38,6 @@ website:
           <img class="logo-dark" src="media/trond.jpg" alt="Mohn Logo"> 
           <img class="logo-light" src="media/trond.jpg" alt="Mohn Logo">
         </a>
-        <a href="https://bjerknes.uib.no/en">
-          <img class="logo-dark" src="media/bjerknes_white.webp" alt="Bjerknes Logo Dark">
-          <img class="logo-light" src="media/bjerknes_black.webp" alt="Bjerknes Logo Light">
-        </a>
       </div>
 
 format:
