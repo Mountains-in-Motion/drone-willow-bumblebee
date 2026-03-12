@@ -23,5 +23,8 @@
   "finse-willow-report.qmd": {
     "finse-willow-report.tex": "284e7e5c",
     "finse-willow-report.html": "2e346e27"
+  },
+  "map.qmd": {
+    "map.html": "5a42b400"
   }
 }

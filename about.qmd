@@ -32,7 +32,7 @@ lightbox: false
 ::: {.g-col-6}
 ::: {.grid}
 ::: {.g-col-4}
-![](media/benjamin.jpg)
+![](media/team/benjamin.jpg)
 :::
 ::: {.g-col-8}
 ## Benjamin Aubrey Robson
@@ -68,7 +68,7 @@ A long list of amazing contributers have helped make this project successfull. I
 ::: {.g-col-6}
 ::: {.grid}
 ::: {.g-col-4}
-![](media/flight.png)
+![](media/gallery/flight.png)
 :::
 ::: {.g-col-8}
 ## The Drone
