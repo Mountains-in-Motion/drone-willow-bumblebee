@@ -48,7 +48,7 @@ Benjamin is the Drone expert!
 :::
 ::: {.g-col-8}
 ## Suzette Flantua
-Suzette is an ecologist!
+Suzette is the spatial ecologist and biogeographer!
 :::
 :::
 :::
@@ -60,7 +60,7 @@ Suzette is an ecologist!
 :::
 ::: {.g-col-8}
 ## Many others!
-A long list of contributers have helped make this project successfull. Including Augusto Lima, Raul Perez Prats, Julien Vadnais, Yiyao Chen, Daniel Thomas, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud.
+A long list of amazing contributers have helped make this project successfull. Including Augusto Lima, Raul Perez Prats, Julien Vadnais, Yiyao Chen, Daniel Thomas, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud.
 :::
 :::
 :::
@@ -84,8 +84,8 @@ This is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) s
 :::
 ::: {.g-col-8}
 ## Contact
-Get in touch with Suzette Flantua if you are interrested in learning more about the Drone-Willow-Bumblebee project:
-[Send us an email](mailto:Suzette.Flantua@uib.no?subject=Willow%20Project)
+Get in touch with Ørjan Totland if you are interested in learning more about the Drone-Willow-Bumblebee project:
+[Send us an email](mailto:Orjan.Totland@uib.no?subject=Willow%20Project)
 :::
 :::
 :::
