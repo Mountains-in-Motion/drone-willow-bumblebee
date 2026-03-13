@@ -14,7 +14,7 @@ Here is [a report summary](finse-willow-report.qmd).
 :::
 
 ::: {.g-col-5}
-![](media/flight.png)
+![](media/gallery/flight.png)
 :::
  
 ::: {.g-col-5}
