@@ -20,7 +20,7 @@ lightbox: false
 ::: {.g-col-6}
 ::: {.grid}
 ::: {.g-col-4}
-![](https://i1.rgstatic.net/ii/profile.image/272500265320473-1441980534821_Q128/Orjan-Totland.jpg)
+![](media/team/orjan.jpg){style="object-position: center center;"}
 :::
 ::: {.g-col-8}
 ## Ørjan Totland
