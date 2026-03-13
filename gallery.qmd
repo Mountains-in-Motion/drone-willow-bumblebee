@@ -17,6 +17,8 @@ lightbox: true
 
 ![](media/gallery/img3.jpg){group="my-gallery"}
 
+![](media/humle.jpg){group="my-gallery"}
+
 ![](./media/gallery/flight.png){group="my-gallery"}
 
 ![](media/gallery/benjamin.jpg){group="my-gallery"}
