@@ -26,14 +26,16 @@ Here is [a report summary](finse-willow-report.qmd).
 Manually identifying the species and gender of willow bushes in the field can be challenging. Here is a [field guide](willow-identification.qmd) to help distinguish between the two target species and genders.
 :::
 
-::: {.g-col-7}
+:::
+
+::: {.g-col-5}
 ## Bumblebee
 And here a happy bumblebee in whom we are very interested to understand its relationship with willow distribution and flowering 
 :::
 
-::: {.g-col-5}
+::: {.g-col-7}
 ![](media/gallery/img52.jpg)
-
+:::
 
 ::: {.g-col-7}
 ## Picture gallery
@@ -44,7 +46,9 @@ Check out all the [pictures](gallery.qmd) from the field. Shots from both bush- 
 ![](media/gallery/img16.jpg)
 :::
 
-::: {.g-col-5}
+:::
+
+::: {.g-col-7}
 ![](media/team_station.JPG)
 :::
 
