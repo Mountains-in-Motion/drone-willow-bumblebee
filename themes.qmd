@@ -33,7 +33,7 @@ Manually identifying the species and gender of willow bushes in the field can be
 And here a happy bumblebee in whom we are very interested to understand its relationship with willow distribution and flowering 
 :::
 
-::: {.g-col-7}
+::: {.g-col-3}
 ![](media/gallery/img52.jpg)
 :::
 
@@ -44,21 +44,20 @@ Check out all the [pictures](gallery.qmd) from the field. Shots from both bush- 
 
 ::: {.g-col-5}
 ![](media/gallery/img16.jpg)
-:::
-
-:::
-
-::: {.g-col-7}
-![](media/team_station.JPG)
-:::
 
 ::: {.g-col-7}
 ## The team
 Here you can find [some information](about.qmd) about the team, and how to get in touch.
 :::
 
+::: {.g-col-5}
+![](media/team_station.JPG)
+:::
+
+
+
 
 :::
  
-:::
+
 
