@@ -1,0 +1,95 @@
+---
+lightbox: false
+---
+
+```{=html}
+<style>
+.team-grid img:not(.no-crop) {
+  width: 160px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center top;
+}
+</style>
+```
+
+:::{.column-page}
+:::{.team-grid}
+::: {.grid}
+
+::: {.g-col-6}
+::: {.grid}
+::: {.g-col-4}
+![](media/team/orjan.jpg){style="object-position: center center;"}
+:::
+::: {.g-col-8}
+## Ørjan Totland
+Ørjan Totland is the willow and bumblebee expert!
+:::
+:::
+:::
+
+::: {.g-col-6}
+::: {.grid}
+::: {.g-col-4}
+![](media/team/benjamin.jpg)
+:::
+::: {.g-col-8}
+## Benjamin Aubrey Robson
+Benjamin is the Drone expert!
+:::
+:::
+:::
+
+::: {.g-col-6}
+::: {.grid}
+::: {.g-col-4}
+![](media/team/suzette.jpg)
+:::
+::: {.g-col-8}
+## Suzette Flantua
+Suzette is the spatial ecologist and biogeographer!
+:::
+:::
+:::
+
+::: {.g-col-6}
+::: {.grid}
+::: {.g-col-4}
+![](media/team_drone.JPG)
+:::
+::: {.g-col-8}
+## Many others!
+A long list of amazing contributers have helped make this project successfull. Including Augusto Lima, Raul Perez Prats, Julien Vadnais, Yiyao Chen, Daniel Thomas, Sjur Barndon, Savanna Nylund, Ingrid Haukereid, and Léonard Saint-Arnaud.
+:::
+:::
+:::
+
+::: {.g-col-6}
+::: {.grid}
+::: {.g-col-4}
+![](media/gallery/flight.png)
+:::
+::: {.g-col-8}
+## The Drone
+This is the Wingtra Drone, equipped with a Light Detection and Ranging (LiDAR) sensor and a MicaScence Multispectral camera.
+:::
+:::
+:::
+
+::: {.g-col-6}
+::: {.grid}
+::: {.g-col-4}
+![](media/drone-bumblebee.png){.no-crop}
+:::
+::: {.g-col-8}
+## Contact
+Get in touch with Ørjan Totland if you are interested in learning more about the Drone-Willow-Bumblebee project:
+[Send us an email](mailto:Orjan.Totland@uib.no?subject=Willow%20Project)
+:::
+:::
+:::
+
+:::
+:::
+:::
